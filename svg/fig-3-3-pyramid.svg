@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 4-1 测试金字塔与 智能体 反馈回路 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">测试金字塔与智能体的反馈回路</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">测试不是安全网，是地基：对智能体而言，它是运行前提而非方法论偏好</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="470" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="299" y="134" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">测试金字塔（AI 时代更陡峭）</text>
+    <polygon points="270,176 328,176 348,240 250,240" fill="#B9CCE4" stroke="#FFFFFF" stroke-width="2" />
+    <text x="299" y="216" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">端到端</text>
+    <polygon points="250,240 348,240 380,320 218,320" fill="#7FA8D9" stroke="#FFFFFF" stroke-width="2" />
+    <text x="299" y="288" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">集成测试</text>
+    <polygon points="218,320 380,320 412,410 186,410" fill="#3D86D4" stroke="#FFFFFF" stroke-width="2" />
+    <text x="299" y="374" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">组件测试</text>
+    <polygon points="186,410 412,410 446,504 152,504" fill="#2064AE" stroke="#FFFFFF" stroke-width="2" />
+    <text x="299" y="466" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">单元测试</text>
+    <line x1="130" y1="504" x2="468" y2="504" stroke="#94A3B8" stroke-width="1" />
+    <text x="299" y="530" font-size="10.5" fill="#475569" text-anchor="middle">数量最多 · 快 · 定位准 · 智能体可大批量生产 · 发布前禁用模拟对象</text>
+    <text x="299" y="560" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">只用模拟对象、只跑单测，不算完成</text>
+    <text x="299" y="586" font-size="10.5" fill="#64748B" text-anchor="middle">真实链路的问题，模拟对象永远测不出来</text>
+    <text x="299" y="608" font-size="10.5" fill="#475569" text-anchor="middle">新趋势：端到端环节由专职测试智能体执行</text>
+
+    <rect x="550" y="100" width="666" height="326" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="570" y="134" font-size="14" font-weight="bold" fill="#0C2864">智能体的自我反馈回路</text>
+    <text x="570" y="154" font-size="10.5" fill="#64748B">没有测试，这个回路就断了</text>
+    <rect x="576" y="176" width="140" height="54" rx="6" fill="#2064AE" />
+    <text x="646" y="208" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">写代码</text>
+    <rect x="736" y="176" width="140" height="54" rx="6" fill="#1B4593" />
+    <text x="806" y="208" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">跑测试</text>
+    <rect x="896" y="176" width="140" height="54" rx="6" fill="#1B4593" />
+    <text x="966" y="208" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">读报错</text>
+    <rect x="1056" y="176" width="140" height="54" rx="6" fill="#2064AE" />
+    <text x="1126" y="208" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">修复</text>
+    <polygon points="722,195 730,203 722,211" fill="#94A3B8" />
+    <polygon points="882,195 890,203 882,211" fill="#94A3B8" />
+    <polygon points="1042,195 1050,203 1042,211" fill="#94A3B8" />
+    <polyline points="1126,230 1126,268 646,268 646,234" fill="none" stroke="#08A6F6" stroke-width="2" />
+    <polygon points="640,240 646,228 652,240" fill="#08A6F6" />
+    <text x="886" y="290" font-size="10.5" fill="#08A6F6" text-anchor="middle">失败则回到起点重跑</text>
+    <rect x="576" y="308" width="620" height="46" rx="6" fill="#FDF3E3" stroke="#B9770E" stroke-width="1" />
+    <text x="886" y="337" font-size="12" font-weight="bold" fill="#B9770E" text-anchor="middle">连续失败到约定的次数 → 强制人工介入（把经验阈值制度化）</text>
+    <text x="570" y="382" font-size="10.5" fill="#475569">没有测试的代码库交给智能体，等于让一个能力极强、却完全没有听觉的工程师在噪音里工作</text>
+    <text x="570" y="404" font-size="10.5" fill="#475569">测试通过是必要条件，不是充分条件</text>
+
+    <rect x="550" y="440" width="666" height="180" rx="10" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="570" y="472" font-size="14" font-weight="bold" fill="#0C2864">测试的三重身份</text>
+    <rect x="570" y="490" width="200" height="112" rx="6" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1" />
+    <text x="670" y="518" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">行为合同</text>
+    <text x="670" y="544" font-size="10.5" fill="#475569" text-anchor="middle">没有测试覆盖的行为</text>
+    <text x="670" y="562" font-size="10.5" fill="#475569" text-anchor="middle">在智能体眼里就是</text>
+    <text x="670" y="580" font-size="10.5" fill="#475569" text-anchor="middle">"没有定义的行为"</text>
+    <rect x="784" y="490" width="200" height="112" rx="6" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1" />
+    <text x="884" y="518" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">反馈回路</text>
+    <text x="884" y="544" font-size="10.5" fill="#475569" text-anchor="middle">无测试则自我纠错</text>
+    <text x="884" y="562" font-size="10.5" fill="#475569" text-anchor="middle">机制失效，退化为</text>
+    <text x="884" y="580" font-size="10.5" fill="#475569" text-anchor="middle">"喋喋不休的生成器"</text>
+    <rect x="998" y="490" width="200" height="112" rx="6" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1" />
+    <text x="1098" y="518" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">前置过滤器</text>
+    <text x="1098" y="544" font-size="10.5" fill="#475569" text-anchor="middle">把缺陷拦在最贵的</text>
+    <text x="1098" y="562" font-size="10.5" fill="#475569" text-anchor="middle">那一层之前，人只看</text>
+    <text x="1098" y="580" font-size="10.5" fill="#475569" text-anchor="middle">机器审不出的问题</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">相关数据：AI 生成代码缺陷密度约为人工的 1.7–2.7 倍；真实任务中"能跑"占 61%，"安全"仅 10.5%</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">完成 = 测试通过 + 真实链路验证 + 过程留痕</text>
+  </g>
+</svg>

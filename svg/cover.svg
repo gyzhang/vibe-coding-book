@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" width="1200" height="1800" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="18">
+  <rect x="0" y="0" width="1200" height="1800" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1200" height="12" fill="#08A6F6" />
+
+  <!-- 主视觉区 -->
+  <rect x="0" y="12" width="1200" height="548" fill="#0C2864" />
+  <rect x="0" y="392" width="1200" height="168" fill="#143976" />
+  <rect x="0" y="392" width="1200" height="2" fill="#1B4593" />
+
+  <!-- 阶梯：自主性逐级上升 -->
+  <text x="760" y="196" font-size="15" fill="#7FA8D9">AI 承担的份额逐级上升</text>
+  <rect x="760" y="400" width="70" height="100" fill="#3D86D4" fill-opacity="0.5" />
+  <rect x="845" y="350" width="70" height="150" fill="#3D86D4" fill-opacity="0.68" />
+  <rect x="930" y="290" width="70" height="210" fill="#08A6F6" fill-opacity="0.82" />
+  <rect x="1015" y="230" width="70" height="270" fill="#08A6F6" />
+  <line x1="760" y1="500" x2="1085" y2="500" stroke="#7FA8D9" stroke-width="1.5" />
+  <text x="795" y="524" font-size="13" fill="#7FA8D9" text-anchor="middle">补全</text>
+  <text x="880" y="524" font-size="13" fill="#7FA8D9" text-anchor="middle">对话</text>
+  <text x="965" y="524" font-size="13" fill="#7FA8D9" text-anchor="middle">智能体</text>
+  <text x="1050" y="524" font-size="13" fill="#7FA8D9" text-anchor="middle">集群</text>
+
+  <!-- 标题 -->
+  <line x1="100" y1="128" x2="560" y2="128" stroke="#08A6F6" stroke-width="3" />
+  <text x="100" y="272" font-size="74" font-weight="bold" fill="#FFFFFF">Vibe Coding</text>
+  <text x="100" y="372" font-size="74" font-weight="bold" fill="#FFFFFF">时代的我们</text>
+  <text x="100" y="456" font-size="19" fill="#7FA8D9" letter-spacing="2">ALL OF US IN THE VIBE CODING ERA</text>
+
+  <!-- 副标题 -->
+  <text x="100" y="646" font-size="40" font-weight="bold" fill="#0C2864">AI 编码的能与不能</text>
+  <text x="100" y="696" font-size="21" fill="#64748B">既不迷信，也不轻视 · 一本讲"怎么分工"的书</text>
+  <line x1="100" y1="742" x2="1100" y2="742" stroke="#D8E4F0" stroke-width="2" />
+
+  <!-- 五篇导航 -->
+  <rect x="100" y="796" width="6" height="46" fill="#B9CCE4" />
+  <text x="132" y="820" font-size="23" fill="#2064AE">第一篇　认清它</text>
+  <text x="132" y="844" font-size="19" fill="#64748B">这台机器到底学会了什么</text>
+  <rect x="600" y="796" width="6" height="46" fill="#3D86D4" />
+  <text x="632" y="820" font-size="23" fill="#2064AE">第二篇　算清账</text>
+  <text x="632" y="844" font-size="19" fill="#64748B">它到底让你更快了吗</text>
+
+  <rect x="100" y="884" width="6" height="46" fill="#3D86D4" />
+  <text x="132" y="908" font-size="23" fill="#2064AE">第三篇　用对它</text>
+  <text x="132" y="932" font-size="19" fill="#64748B">一个人的功夫</text>
+  <rect x="600" y="884" width="6" height="46" fill="#08A6F6" />
+  <text x="632" y="908" font-size="23" fill="#2064AE">第四篇　建起来</text>
+  <text x="632" y="932" font-size="19" fill="#64748B">模型之外决定成败</text>
+
+  <rect x="100" y="972" width="6" height="46" fill="#1B4593" />
+  <text x="132" y="996" font-size="23" fill="#2064AE">第五篇　看清楚</text>
+  <text x="132" y="1020" font-size="19" fill="#64748B">人还剩什么</text>
+
+  <text x="100" y="1096" font-size="20" fill="#475569">五篇十五章 · 都能单独读懂</text>
+  <text x="100" y="1132" font-size="19" fill="#94A3B8">如果你时间很少，只读三章：第 3 章（它能做什么）· 第 5 章（什么变贵了）· 第 15 章（人还剩什么）</text>
+
+  <!-- 版本说明 -->
+  <rect x="100" y="1206" width="1000" height="92" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1" />
+  <path d="M106 1206.25A8 8 0 0 0 100 1214V1290A8 8 0 0 0 106 1297.75Z" fill="#2064AE"/>
+  <text x="132" y="1248" font-size="21" font-weight="bold" fill="#0C2864">V3.2 秋分</text>
+  <text x="132" y="1278" font-size="19" fill="#64748B">数据以 2026 年 9 月 19 日公开来源为准；凡未独立核实的，正文与附录都标了出来</text>
+
+  <!-- 署名 -->
+  <line x1="100" y1="1360" x2="1100" y2="1360" stroke="#D8E4F0" stroke-width="2" />
+  <text x="100" y="1444" font-size="46" font-weight="bold" fill="#2064AE">Kevin + AI</text>
+  <text x="100" y="1496" font-size="21" fill="#64748B">2026 年 9 月 23 日 · 全书重写</text>
+  <text x="100" y="1540" font-size="18" fill="#94A3B8">附：术语与约定 · 数据与来源清单 · 可操作清单 · 术语表</text>
+
+  <rect x="100" y="1620" width="1000" height="10" fill="#2064AE" />
+  <text x="100" y="1690" font-size="17" fill="#94A3B8">这本书讲的是：AI 编码不是"能不能"的问题，是"怎么分工"的问题</text>
+
+  <rect x="0" y="1788" width="1200" height="12" fill="#08A6F6" />
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 6-2 上下文工程四件套与渐进式披露 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">上下文工程：给模型一张干净的工作台</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">第一原则：模型的输出质量，由你放进上下文的东西决定</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="500" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">上下文工程四件套</text>
+    <rect x="84" y="152" width="460" height="106" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M89 152.58A8 8 0 0 0 84 160V250A8 8 0 0 0 89 257.42Z" fill="#B9CCE4"/>
+    <text x="106" y="180" font-size="12" font-weight="bold" fill="#2064AE">一 · AGENTS.md：仓库的智能体说明书</text>
+    <text x="106" y="206" font-size="10.5" fill="#475569">全工具通用的开放标准，根目录约 100 行的索引</text>
+    <text x="106" y="226" font-size="10.5" fill="#475569">技术栈 · 目录约定 · 构建与测试命令 · 禁区</text>
+    <text x="106" y="248" font-size="10.5" fill="#DF203C">它是索引不是百科全书；按目录分发，别写单体长文</text>
+    <rect x="84" y="270" width="460" height="106" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M89 270.58A8 8 0 0 0 84 278V368A8 8 0 0 0 89 375.42Z" fill="#7FA8D9"/>
+    <text x="106" y="298" font-size="12" font-weight="bold" fill="#2064AE">二 · 渐进式披露：索引常驻，正文按需</text>
+    <text x="106" y="324" font-size="10.5" fill="#475569">常驻上下文只放极简索引，完整定义在匹配时才加载</text>
+    <text x="106" y="344" font-size="10.5" fill="#475569">反例：工具一多，仅工具描述就要占掉大量上下文</text>
+    <text x="106" y="366" font-size="10.5" fill="#DF203C">模型会把注意力花在"记工具名"上</text>
+    <rect x="84" y="388" width="460" height="106" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M89 388.58A8 8 0 0 0 84 396V486A8 8 0 0 0 89 493.42Z" fill="#3D86D4"/>
+    <text x="106" y="416" font-size="12" font-weight="bold" fill="#2064AE">三 · 技能 Skills：经验的资产化</text>
+    <text x="106" y="442" font-size="10.5" fill="#475569">把"我们团队怎么做评审、怎么做逆向分析"封装</text>
+    <text x="106" y="462" font-size="10.5" fill="#475569">成标准能力包，新成员与新项目直接加载复用</text>
+    <text x="106" y="484" font-size="10.5" fill="#DF203C">经验从"个人提示词手艺"变为"可继承的工程资产"</text>
+    <rect x="84" y="506" width="460" height="106" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M89 506.58A8 8 0 0 0 84 514V604A8 8 0 0 0 89 611.42Z" fill="#08A6F6"/>
+    <text x="106" y="534" font-size="12" font-weight="bold" fill="#2064AE">四 · 记忆与压缩：长任务的生存术</text>
+    <text x="106" y="560" font-size="10.5" fill="#475569">自动摘要压缩是有损的，被丢弃的细节可能正是后面</text>
+    <text x="106" y="580" font-size="10.5" fill="#475569">需要的。二级方案：跨窗口结构笔记 + 检索原文</text>
+    <text x="106" y="602" font-size="10.5" fill="#DF203C">从"压缩"到"笔记 + 检索"是记忆问题的工程化升级</text>
+
+    <rect x="584" y="100" width="632" height="248" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="604" y="134" font-size="14" font-weight="bold" fill="#0C2864">渐进式披露：token 预算的三级台阶</text>
+    <text x="604" y="154" font-size="10.5" fill="#64748B">"装了很多技能也不撑爆上下文"的原因就在这里</text>
+    <text x="604" y="186" font-size="10.5" fill="#475569">技能名称 + 描述（始终在上下文）</text>
+    <rect x="604" y="194" width="30" height="22" fill="#B9CCE4" />
+    <text x="644" y="210" font-size="12" font-weight="bold" fill="#0C2864">约 50 token</text>
+    <text x="604" y="240" font-size="10.5" fill="#475569">技能正文 SKILL.md（被触发时加载）</text>
+    <rect x="604" y="248" width="180" height="22" fill="#3D86D4" />
+    <text x="794" y="264" font-size="12" font-weight="bold" fill="#0C2864">约 500 token</text>
+    <text x="604" y="294" font-size="10.5" fill="#475569">引用文件 / 参考文档（正文明确指向时加载）</text>
+    <rect x="604" y="302" width="360" height="22" fill="#08A6F6" />
+    <text x="974" y="318" font-size="12" font-weight="bold" fill="#0C2864">视内容而定</text>
+
+    <rect x="584" y="364" width="632" height="256" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="604" y="398" font-size="14" font-weight="bold" fill="#0C2864">长任务：重置优于压缩</text>
+    <rect x="604" y="414" width="288" height="122" rx="8" fill="#FFFFFF" stroke="#DF203C" stroke-width="1.5" />
+    <text x="624" y="442" font-size="12" font-weight="bold" fill="#DF203C">就地压缩（默认做法）</text>
+    <text x="624" y="470" font-size="10.5" fill="#475569">在一个已经混乱的现场里继续工作</text>
+    <text x="624" y="492" font-size="10.5" fill="#475569">旧历史被摘要化，关键决策保留、</text>
+    <text x="624" y="512" font-size="10.5" fill="#475569">细节丢弃——而被丢掉的细节，可能</text>
+    <text x="624" y="532" font-size="10.5" fill="#DF203C">恰好是后面需要的那一条</text>
+    <rect x="908" y="414" width="288" height="122" rx="8" fill="#FFFFFF" stroke="#2064AE" stroke-width="1.5" />
+    <text x="928" y="442" font-size="12" font-weight="bold" fill="#2064AE">重置 + 结构化交接（更优）</text>
+    <text x="928" y="470" font-size="10.5" fill="#475569">换一个干净的工位重新开始</text>
+    <text x="928" y="492" font-size="10.5" fill="#475569">把"上一班次干到哪、下一步是</text>
+    <text x="928" y="512" font-size="10.5" fill="#475569">什么"写成一份正式的交接单</text>
+    <text x="928" y="532" font-size="10.5" fill="#2064AE">在多小时的自主任务里效果更明显</text>
+    <text x="604" y="562" font-size="10.5" fill="#475569">失败模式：上下文焦虑——模型感知接近上限时会提前收尾，</text>
+    <text x="604" y="584" font-size="10.5" fill="#475569">把没干完的活包装成"已完成"交给你</text>
+    <text x="604" y="608" font-size="10.5" font-weight="bold" fill="#DF203C">另一条纪律：模型每次升级，都要重新审视并拆掉一些 harness</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">参考：领先实验室关于长时程应用 harness 设计的工程长文（2026-03），含完整成本披露（单模型 20 分钟 $9 对比完整 harness 6 小时 $200）</text>
+  </g>
+</svg>

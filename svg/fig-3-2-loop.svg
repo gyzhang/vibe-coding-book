@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 3-2 核心循环：意图、生成、验证、判断 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">核心循环：意图、生成、验证、判断</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">高手与新手可能用同一个模型、同一个工具，差别只在循环每一拍的手感</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="68" y="112" width="250" height="248" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M68.83 118A10 10 0 0 1 78 112H308A10 10 0 0 1 317.17 118Z" fill="#B9CCE4"/>
+    <text x="193" y="152" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">意图</text>
+    <text x="193" y="176" font-size="10.5" fill="#64748B" text-anchor="middle">把想法写成合同</text>
+    <line x1="96" y1="194" x2="290" y2="194" stroke="#D8E4F0" stroke-width="1" />
+    <text x="96" y="220" font-size="10.5" fill="#475569">目标 · 非目标 · 约束 · 验收</text>
+    <text x="96" y="244" font-size="10.5" fill="#475569">澄清是强制门禁</text>
+    <text x="96" y="268" font-size="10.5" fill="#475569">"有不确定先提问，不得猜测"</text>
+    <text x="96" y="304" font-size="12" font-weight="bold" fill="#0C2864">产出：共识，不是代码</text>
+    <text x="96" y="330" font-size="10.5" fill="#64748B">共识必须沉淀为文档才能被审计</text>
+
+    <rect x="366" y="112" width="250" height="248" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M366.83 118A10 10 0 0 1 376 112H606A10 10 0 0 1 615.17 118Z" fill="#7FA8D9"/>
+    <text x="491" y="152" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">生成</text>
+    <text x="491" y="176" font-size="10.5" fill="#64748B" text-anchor="middle">唯一的决策是粒度</text>
+    <line x1="394" y1="194" x2="588" y2="194" stroke="#D8E4F0" stroke-width="1" />
+    <text x="394" y="220" font-size="10.5" fill="#475569">一次一个可独立验证的任务</text>
+    <text x="394" y="244" font-size="10.5" fill="#475569">变更四纪律：单一意图 · 可控</text>
+    <text x="394" y="264" font-size="10.5" fill="#475569">大小 · 自包含 · 说清为什么</text>
+    <text x="394" y="304" font-size="12" font-weight="bold" fill="#0C2864">判据：能一次审查完并负责</text>
+    <text x="394" y="330" font-size="10.5" fill="#64748B">超过四五百行的审查质量断崖下跌</text>
+
+    <rect x="664" y="112" width="250" height="248" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M664.83 118A10 10 0 0 1 674 112H904A10 10 0 0 1 913.17 118Z" fill="#3D86D4"/>
+    <text x="789" y="152" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">验证</text>
+    <text x="789" y="176" font-size="10.5" fill="#64748B" text-anchor="middle">越便宜的手段越靠前</text>
+    <line x1="692" y1="194" x2="886" y2="194" stroke="#D8E4F0" stroke-width="1" />
+    <text x="692" y="220" font-size="10.5" fill="#475569">机械验证 → 测试 → 评审 → 验收</text>
+    <text x="692" y="244" font-size="10.5" fill="#475569">人的评审聚焦机器审不出的东西</text>
+    <text x="692" y="268" font-size="10.5" fill="#475569">对抗式验证：结构胜过规模</text>
+    <text x="692" y="304" font-size="12" font-weight="bold" fill="#0C2864">评审链从不分歧，就是警报</text>
+    <text x="692" y="330" font-size="10.5" fill="#64748B">生成者永不认证自己的作品</text>
+
+    <rect x="962" y="112" width="250" height="248" rx="10" fill="#EEF4FB" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M962.83 118A10 10 0 0 1 972 112H1202A10 10 0 0 1 1211.17 118Z" fill="#08A6F6"/>
+    <text x="1087" y="152" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">判断</text>
+    <text x="1087" y="176" font-size="10.5" fill="#64748B" text-anchor="middle">修，还是重来</text>
+    <line x1="990" y1="194" x2="1184" y2="194" stroke="#D8E4F0" stroke-width="1" />
+    <text x="990" y="220" font-size="10.5" fill="#475569">说得清失败原因 → 定点修正</text>
+    <text x="990" y="244" font-size="10.5" fill="#475569">说不清 → 缩小任务或重开对话</text>
+    <text x="990" y="268" font-size="10.5" fill="#475569">长对话会污染上下文</text>
+    <text x="990" y="304" font-size="12" font-weight="bold" fill="#DF203C">连续失败超上限 → 换策略</text>
+    <text x="990" y="330" font-size="10.5" fill="#64748B">反馈越慢，耐心消失得越快</text>
+
+    <polygon points="330,224 354,236 330,248" fill="#94A3B8" />
+    <polygon points="628,224 652,236 628,248" fill="#94A3B8" />
+    <polygon points="926,224 950,236 926,248" fill="#94A3B8" />
+
+    <text x="68" y="400" font-size="14" font-weight="bold" fill="#0C2864">验证的分层经济学：越便宜的验证手段越往前放</text>
+    <rect x="68" y="416" width="274" height="94" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="88" y="444" font-size="12" font-weight="bold" fill="#2064AE">机械验证</text>
+    <text x="88" y="466" font-size="17" font-weight="bold" fill="#0C2864">秒级</text>
+    <text x="88" y="492" font-size="10.5" fill="#475569">编译 · 类型检查 · 静态分析</text>
+
+    <rect x="350" y="416" width="274" height="94" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="370" y="444" font-size="12" font-weight="bold" fill="#2064AE">测试验证</text>
+    <text x="370" y="466" font-size="17" font-weight="bold" fill="#0C2864">分钟级</text>
+    <text x="370" y="492" font-size="10.5" fill="#475569">单元测试 · 契约测试</text>
+
+    <rect x="632" y="416" width="274" height="94" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="652" y="444" font-size="12" font-weight="bold" fill="#2064AE">代码评审</text>
+    <text x="652" y="466" font-size="17" font-weight="bold" fill="#0C2864">十分钟级</text>
+    <text x="652" y="492" font-size="10.5" fill="#475569">人类时间 · 聚焦设计、边界、安全</text>
+
+    <rect x="914" y="416" width="298" height="94" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="934" y="444" font-size="12" font-weight="bold" fill="#2064AE">验收</text>
+    <text x="934" y="466" font-size="17" font-weight="bold" fill="#0C2864">小时级</text>
+    <text x="934" y="492" font-size="10.5" fill="#475569">人类判断 · 这是不是用户想要的</text>
+
+    <rect x="68" y="530" width="1144" height="100" rx="8" fill="#0C2864" />
+    <text x="640" y="562" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">读代码比写代码贵：人审一行变更 $0.243，模型产出一行被验收变更 $0.114</text>
+    <text x="640" y="590" font-size="12" fill="#B9CCE4" text-anchor="middle">每产出一行被验收的代码，要消耗约 128,000 个 token</text>
+    <text x="640" y="614" font-size="12" fill="#B9CCE4" text-anchor="middle">一道一小时的人工评审，可把 5% 的缺陷率压到 1%——最值得先做的一步</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">单价为公开数据推算值（审查速率 400 行/小时，出自 SmartBear 的 Cisco 研究；开发者完全时薪约 $97.15），非实测；token 口径来自一次完整公开基准运行的重算</text>
+  </g>
+</svg>

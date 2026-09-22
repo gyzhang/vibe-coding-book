@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 8-1 攻击面迁移与八层防御 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">攻击面换了位置：从"代码写错"到"权限给多"</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">半安全的代码乘以三倍的产出，就是三倍的暴露面</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="106" width="376" height="70" rx="8" fill="#B9CCE4" />
+    <text x="252" y="138" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">攻击面一 · 代码里有没有漏洞</text>
+    <text x="252" y="160" font-size="10.5" fill="#475569" text-anchor="middle">已被讨论了二十年</text>
+    <polygon points="450,128 470,141 450,154" fill="#94A3B8" />
+    <rect x="482" y="106" width="734" height="70" rx="8" fill="#DF203C" />
+    <text x="849" y="138" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">攻击面二 · 智能体的权限边界画在哪里、有没有被机械化执行</text>
+    <text x="849" y="160" font-size="10.5" fill="#FDF3E3" text-anchor="middle">一个会幻觉的聊天机器人最多给你一个错误答案；一个会幻觉的智能体可以改错资源</text>
+
+    <rect x="64" y="196" width="268" height="102" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="198" y="240" font-size="22" font-weight="bold" fill="#DF203C" text-anchor="middle">45%</text>
+    <text x="198" y="266" font-size="10.5" fill="#475569" text-anchor="middle">AI 代码未通过安全测试</text>
+    <text x="198" y="286" font-size="10.5" fill="#64748B" text-anchor="middle">Java 失败率 72%，两年未改善</text>
+    <rect x="348" y="196" width="268" height="102" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="482" y="240" font-size="22" font-weight="bold" fill="#DF203C" text-anchor="middle">61% → 10.5%</text>
+    <text x="482" y="266" font-size="10.5" fill="#475569" text-anchor="middle">真实任务中"能跑"与"安全"</text>
+    <text x="482" y="286" font-size="10.5" fill="#64748B" text-anchor="middle">专项训练未带来任何安全收益</text>
+    <rect x="64" y="312" width="268" height="102" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="198" y="356" font-size="22" font-weight="bold" fill="#DF203C" text-anchor="middle">88%</text>
+    <text x="198" y="382" font-size="10.5" fill="#475569" text-anchor="middle">被检 AI 应用中行级安全</text>
+    <text x="198" y="402" font-size="10.5" fill="#64748B" text-anchor="middle">策略完全关闭的比例</text>
+    <rect x="348" y="312" width="268" height="102" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="482" y="356" font-size="22" font-weight="bold" fill="#B9770E" text-anchor="middle">87.8%</text>
+    <text x="482" y="382" font-size="10.5" fill="#475569" text-anchor="middle">技能生态中从未被审计</text>
+    <text x="482" y="402" font-size="10.5" fill="#64748B" text-anchor="middle">的条目比例</text>
+
+    <rect x="64" y="432" width="552" height="188" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="462" font-size="14" font-weight="bold" fill="#0C2864">五项最低成本的做法</text>
+    <text x="84" y="490" font-size="10.5" fill="#475569">临时身份 —— 给每个智能体唯一的服务账号与任务级短时 token</text>
+    <text x="84" y="514" font-size="10.5" fill="#475569">隔离执行 —— 一次性容器或轻量虚拟机，默认拒绝出站</text>
+    <text x="84" y="538" font-size="10.5" fill="#DF203C">沙箱必须同时隔离文件系统与网络：只做文件系统隔离不够</text>
+    <text x="84" y="562" font-size="10.5" fill="#475569">包管理器指向内部仓库 —— 从源头防住幻觉依赖与包名蹭用</text>
+    <text x="84" y="586" font-size="10.5" fill="#475569">AI 物料清单 —— 记录模型、提示哈希与依赖，扫描通过并人工签名后合并</text>
+    <text x="84" y="610" font-size="10.5" fill="#64748B">现状：61% 部署了智能体的组织，没有任何专门记录智能体行为的日志</text>
+
+    <rect x="644" y="190" width="572" height="430" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="664" y="220" font-size="14" font-weight="bold" fill="#0C2864">提示注入的八层防御</text>
+    <text x="664" y="240" font-size="10.5" fill="#64748B">分层结构化防御把攻击成功率从 71% 压到 8% 以下；"只靠指令"只能降 12%</text>
+    <rect x="664" y="254" width="266" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="682" y="280" font-size="12" font-weight="bold" fill="#2064AE">1 · 输入分类与隔离</text>
+    <text x="682" y="302" font-size="10.5" fill="#475569">摘要化而非原样透传，能破坏</text>
+    <text x="682" y="322" font-size="10.5" fill="#475569">大量朴素攻击结构</text>
+    <rect x="944" y="254" width="252" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="962" y="280" font-size="12" font-weight="bold" fill="#2064AE">2 · 按任务权限隔离</text>
+    <text x="962" y="302" font-size="10.5" fill="#475569">短生命周期、窄作用域 token</text>
+    <text x="962" y="322" font-size="10.5" fill="#475569">不用持久服务账号凭据</text>
+    <rect x="664" y="342" width="266" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="682" y="368" font-size="12" font-weight="bold" fill="#2064AE">3 · 动作门禁</text>
+    <text x="682" y="390" font-size="10.5" fill="#475569">超阈值强制人工批准</text>
+    <text x="682" y="410" font-size="10.5" fill="#475569">智能体提议、独立层决定</text>
+    <rect x="944" y="342" width="252" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="962" y="368" font-size="12" font-weight="bold" fill="#2064AE">4 · 输出与动作校验</text>
+    <text x="962" y="390" font-size="10.5" fill="#475569">路径、SQL、shell 命令按</text>
+    <text x="962" y="410" font-size="10.5" fill="#475569">schema 校验并比对白名单</text>
+    <rect x="664" y="430" width="266" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="682" y="456" font-size="12" font-weight="bold" fill="#2064AE">5 · 环境虚拟化</text>
+    <text x="682" y="478" font-size="10.5" fill="#475569">破坏性动作先打在模拟资源</text>
+    <text x="682" y="498" font-size="10.5" fill="#475569">文件与网络经可检查中间层</text>
+    <rect x="944" y="430" width="252" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="962" y="456" font-size="12" font-weight="bold" fill="#2064AE">6 · 凭据卫生</text>
+    <text x="962" y="478" font-size="10.5" fill="#475569">密钥绝不进入上下文</text>
+    <text x="962" y="498" font-size="10.5" fill="#475569">改用代理式认证调用</text>
+    <rect x="664" y="518" width="266" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="682" y="544" font-size="12" font-weight="bold" fill="#2064AE">7 · 运行时检测</text>
+    <text x="682" y="566" font-size="10.5" fill="#475569">凭据枚举、异常外部目标、</text>
+    <text x="682" y="586" font-size="10.5" fill="#475569">快速链式调用 → 自动终止</text>
+    <rect x="944" y="518" width="252" height="80" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="962" y="544" font-size="12" font-weight="bold" fill="#2064AE">8 · 治理与可审计</text>
+    <text x="962" y="566" font-size="10.5" fill="#475569">提示、检索文档与执行动作</text>
+    <text x="962" y="586" font-size="10.5" fill="#475569">全部写进防篡改存储</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">原则：不要给智能体超出你愿意给一个入职第一天实习生的权限 · 六类动作永远需要人工确认：删除 · 对外请求 · 资金 · 权限变更 · 生产发布 · 需求与架构变更</text>
+  </g>
+</svg>

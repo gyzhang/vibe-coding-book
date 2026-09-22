@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 7-1 协议栈与三层治理 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">协议栈与三层治理：智能体如何接进企业</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">协议解决"能不能" · 治理回答"该不该"</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="580" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">连接层：谁连谁</text>
+    <text x="84" y="154" font-size="10.5" fill="#64748B">协议仍在早期：身份、发现、寻址与信任层尚不完善</text>
+    <rect x="84" y="170" width="540" height="82" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M89 170.58A8 8 0 0 0 84 178V244A8 8 0 0 0 89 251.42Z" fill="#2064AE"/>
+    <text x="108" y="196" font-size="12" font-weight="bold" fill="#2064AE">MCP · 纵向 · 智能体 ↔ 工具</text>
+    <text x="108" y="220" font-size="10.5" fill="#475569">解决 M×N 集成难题；业内称为"AI 的 USB-C"</text>
+    <text x="108" y="240" font-size="10.5" fill="#64748B">2026 路线图聚焦企业就绪：认证、可观测性、水平扩展</text>
+    <rect x="84" y="262" width="540" height="82" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M89 262.58A8 8 0 0 0 84 270V336A8 8 0 0 0 89 343.42Z" fill="#3D86D4"/>
+    <text x="108" y="288" font-size="12" font-weight="bold" fill="#2064AE">A2A · 横向 · 智能体 ↔ 智能体</text>
+    <text x="108" y="312" font-size="10.5" fill="#475569">v1.0 稳定版：gRPC 传输 · 签名身份 · 多租户</text>
+    <text x="108" y="332" font-size="10.5" fill="#64748B">250 多个成员机构在同一屋檐下制定互操作标准</text>
+    <rect x="84" y="354" width="540" height="82" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M89 354.58A8 8 0 0 0 84 362V428A8 8 0 0 0 89 435.42Z" fill="#08A6F6"/>
+    <text x="108" y="380" font-size="12" font-weight="bold" fill="#2064AE">AP2 · 资金 · 智能体 ↔ 支付</text>
+    <text x="108" y="404" font-size="10.5" fill="#475569">用签名凭证让"AI 替人付钱"可审计、可追责</text>
+    <text x="108" y="424" font-size="10.5" fill="#64748B">预示着智能体经济的下一站；商务协议族并行演进</text>
+    <rect x="84" y="446" width="540" height="82" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M89 446.58A8 8 0 0 0 84 454V520A8 8 0 0 0 89 527.42Z" fill="#B9CCE4"/>
+    <text x="108" y="472" font-size="12" font-weight="bold" fill="#2064AE">界面与输出协议 · 智能体 ↔ 人 / 智能体 → 界面</text>
+    <text x="108" y="496" font-size="10.5" fill="#475569">面向实时交互反馈，以及让智能体动态生成用户界面</text>
+    <text x="108" y="516" font-size="10.5" fill="#64748B">与 MCP、A2A 互补，共同构成智能体互联网的协议栈</text>
+    <rect x="84" y="538" width="540" height="62" rx="8" fill="#FDF3E3" stroke="#B9770E" stroke-width="1" />
+    <text x="108" y="564" font-size="12" font-weight="bold" fill="#B9770E">中国标准化进程同步推进</text>
+    <text x="108" y="586" font-size="10.5" fill="#475569">2026 年 6 月发布智能体互联系列国家标准；两万余家组织开始试点</text>
+
+    <rect x="668" y="100" width="548" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="688" y="134" font-size="14" font-weight="bold" fill="#0C2864">治理：协议之上的三张桌子</text>
+    <text x="688" y="154" font-size="10.5" fill="#64748B">三家原本互不协调的机构正在收敛到一套分层架构</text>
+    <rect x="688" y="170" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M693 170.58A8 8 0 0 0 688 178V288A8 8 0 0 0 693 295.42Z" fill="#2064AE"/>
+    <text x="712" y="198" font-size="12" font-weight="bold" fill="#2064AE">基金会层 · 管"怎么连"</text>
+    <text x="712" y="224" font-size="10.5" fill="#475569">成员数 146 → 290+（2026-02 → 2026-08）</text>
+    <text x="712" y="246" font-size="10.5" fill="#475569">托管 MCP、智能体说明书标准等基础项目</text>
+    <text x="712" y="272" font-size="10.5" fill="#64748B">八个工作组，含智能体商务与安全隐私</text>
+    <rect x="688" y="310" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M693 310.58A8 8 0 0 0 688 318V428A8 8 0 0 0 693 435.42Z" fill="#3D86D4"/>
+    <text x="712" y="338" font-size="12" font-weight="bold" fill="#2064AE">标准机构层 · 管"你是谁、能做什么"</text>
+    <text x="712" y="364" font-size="10.5" fill="#475569">认定智能体身份所必需的六项标准</text>
+    <text x="712" y="386" font-size="10.5" fill="#475569">从静态密钥走向最小权限、多跳委托</text>
+    <text x="712" y="412" font-size="10.5" fill="#DF203C">把提示注入当作控制设计问题，而非要打补丁的漏洞</text>
+    <rect x="688" y="450" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M693 450.58A8 8 0 0 0 688 458V568A8 8 0 0 0 693 575.42Z" fill="#08A6F6"/>
+    <text x="712" y="478" font-size="12" font-weight="bold" fill="#2064AE">安全社区层 · 管"执行那一刻拦不拦得住"</text>
+    <text x="712" y="504" font-size="10.5" fill="#475569">2026 年 9 月在开放 Web 安全项目下亮相</text>
+    <text x="712" y="526" font-size="10.5" fill="#475569">聚焦运行时强制层：执行点上的厂商无关中间件钩子</text>
+    <text x="712" y="552" font-size="10.5" fill="#64748B">实现执行环境内的细粒度控制</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">已实证的三类协议层攻击：工具投毒（描述里藏指令）· 工具遮蔽（覆盖可信工具行为）· 事后变脸（批准后偷改定义）</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">防御：工具清单签名 · 来源审计 · 运行时护栏</text>
+  </g>
+</svg>

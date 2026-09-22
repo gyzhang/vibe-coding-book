@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 12-1 责任的分界 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">责任的分界：什么可以委托，什么不能</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">智能体可以做得比人快，也可以做得比人好——但它不能签名</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="104" width="548" height="368" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="138" font-size="14" font-weight="bold" fill="#2064AE">可以委托给智能体</text>
+    <text x="84" y="158" font-size="10.5" fill="#64748B">前提：有测试、有门禁、有留痕</text>
+    <rect x="84" y="176" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="208" y="208" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">生成代码</text>
+    <rect x="344" y="176" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="468" y="208" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">跑测试与回归</text>
+    <rect x="84" y="240" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="208" y="272" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">修复缺陷</text>
+    <rect x="344" y="240" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="468" y="272" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">检索与整理</text>
+    <rect x="84" y="304" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="208" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">起草规格与文档</text>
+    <rect x="344" y="304" width="248" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="468" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">提交合并请求</text>
+    <rect x="84" y="368" width="508" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="338" y="400" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">在受约束的沙箱里执行被批准的操作</text>
+    <text x="84" y="452" font-size="10.5" fill="#64748B">共同点：动作可以被机器判定对错，后果可以被回滚或隔离</text>
+
+    <line x1="632" y1="110" x2="632" y2="466" stroke="#DF203C" stroke-width="2" stroke-dasharray="6 5" />
+    <rect x="574" y="418" width="116" height="26" rx="4" fill="#DF203C" />
+    <text x="632" y="436" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">签名线</text>
+
+    <rect x="656" y="104" width="560" height="368" rx="10" fill="#EEF4FB" stroke="#2064AE" stroke-width="1.5" />
+    <text x="676" y="138" font-size="14" font-weight="bold" fill="#0C2864">只有人能承担</text>
+    <text x="676" y="158" font-size="10.5" fill="#64748B">共同点：需要理解、需要可追责的主体、需要留痕</text>
+    <rect x="676" y="176" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="802" y="208" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">判断什么值得做</text>
+    <rect x="944" y="176" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="1070" y="208" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">决定何时不该委托</text>
+    <rect x="676" y="240" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="802" y="272" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">定义"算做完"的标准</text>
+    <rect x="944" y="240" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="1070" y="272" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">对连接处的系统直觉</text>
+    <rect x="676" y="304" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="802" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">承担架构决策的后果</text>
+    <rect x="944" y="304" width="252" height="52" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1" />
+    <text x="1070" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">说出"可以上线"</text>
+    <rect x="676" y="368" width="520" height="52" rx="6" fill="#0C2864" />
+    <text x="936" y="400" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">为一次判断签名：签名的是人，不是模型</text>
+    <text x="676" y="452" font-size="10.5" fill="#DF203C">责任不能被外包：模型没有财产、职位与声誉可损失</text>
+
+    <rect x="64" y="492" width="368" height="128" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="522" font-size="12" font-weight="bold" fill="#2064AE">一 · 对结果负责</text>
+    <text x="84" y="548" font-size="10.5" fill="#475569">智能体可以生成、测试、甚至提交合并</text>
+    <text x="84" y="568" font-size="10.5" fill="#475569">但"这个系统可以上线"的决定，只能由</text>
+    <text x="84" y="588" font-size="10.5" fill="#475569">理解它的人做出</text>
+    <text x="84" y="608" font-size="10.5" fill="#DF203C">把责任下放给机器，失去的是发现危险的最后机会</text>
+    <rect x="456" y="492" width="368" height="128" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="476" y="522" font-size="12" font-weight="bold" fill="#2064AE">二 · 对过程负责</text>
+    <text x="476" y="548" font-size="10.5" fill="#475569">完成 = 测试通过 + 真实链路验证 + 过程留痕</text>
+    <text x="476" y="572" font-size="10.5" fill="#475569">这不是某个平台的要求，是这个时代工程师</text>
+    <text x="476" y="592" font-size="10.5" fill="#475569">的执业标准——像医生写病历、会计做凭证</text>
+    <text x="476" y="612" font-size="10.5" fill="#64748B">留痕保护的不只是组织，是你自己</text>
+    <rect x="848" y="492" width="368" height="128" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="868" y="522" font-size="12" font-weight="bold" fill="#2064AE">三 · 对同行负责</text>
+    <text x="868" y="548" font-size="10.5" fill="#475569">把你的经验封装成技能，把踩坑写成规约，</text>
+    <text x="868" y="568" font-size="10.5" fill="#475569">把门禁捐给团队的持续集成</text>
+    <text x="868" y="592" font-size="10.5" fill="#475569">在经验可以直接复制为生产力的年代，</text>
+    <text x="868" y="612" font-size="10.5" fill="#DF203C">藏私的成本前所未有地高，分享的复利前所未有地大</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">越强的工具，越要求使用它的人配得上它 · 在你署名的每一行代码后面，签上你的名字</text>
+  </g>
+</svg>

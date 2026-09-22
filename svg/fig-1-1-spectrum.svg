@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 1-1 从补全到 智能体 集群：自主性谱系与责任上移 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">从补全到智能体集群：自主性谱系与责任上移</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">AI 承担的份额逐级上升 · 人的角色从写作者向验证者与编排者移动</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="106" width="270" height="392" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M64.83 112A10 10 0 0 1 74 106H324A10 10 0 0 1 333.17 112Z" fill="#B9CCE4"/>
+    <text x="199" y="150" font-size="10.5" fill="#64748B" text-anchor="middle">阶段一 · 2021–2023</text>
+    <text x="199" y="188" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">自动补全</text>
+    <line x1="94" y1="208" x2="304" y2="208" stroke="#D8E4F0" stroke-width="1" />
+    <text x="199" y="236" font-size="10.5" fill="#475569" text-anchor="middle">GitHub Copilot</text>
+    <text x="199" y="256" font-size="10.5" fill="#475569" text-anchor="middle">编辑器内补全</text>
+    <text x="199" y="306" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">人写代码 · AI 补行</text>
+    <text x="199" y="330" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">审查单位：每一行</text>
+    <rect x="94" y="416" width="210" height="22" fill="#EEF4FB" />
+    <rect x="94" y="416" width="52" height="22" fill="#0C2864" />
+    <text x="199" y="468" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">AI 承担约 25%</text>
+
+    <rect x="358" y="106" width="270" height="392" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M358.83 112A10 10 0 0 1 368 106H618A10 10 0 0 1 627.17 112Z" fill="#7FA8D9"/>
+    <text x="493" y="150" font-size="10.5" fill="#64748B" text-anchor="middle">阶段二 · 2023–2025</text>
+    <text x="493" y="188" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">对话生成</text>
+    <line x1="388" y1="208" x2="598" y2="208" stroke="#D8E4F0" stroke-width="1" />
+    <text x="493" y="236" font-size="10.5" fill="#475569" text-anchor="middle">聊天框 / IDE 对话框</text>
+    <text x="493" y="256" font-size="10.5" fill="#475569" text-anchor="middle">复制粘贴整段代码</text>
+    <text x="493" y="306" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">人写提示 · AI 写函数</text>
+    <text x="493" y="330" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">审查单位：每一段</text>
+    <rect x="388" y="416" width="210" height="22" fill="#EEF4FB" />
+    <rect x="388" y="416" width="92" height="22" fill="#1B4593" />
+    <text x="493" y="468" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">AI 承担约 45%</text>
+
+    <rect x="652" y="106" width="270" height="392" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M652.83 112A10 10 0 0 1 662 106H912A10 10 0 0 1 921.17 112Z" fill="#3D86D4"/>
+    <text x="787" y="150" font-size="10.5" fill="#64748B" text-anchor="middle">阶段三 · 2025–2026</text>
+    <text x="787" y="188" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">智能体执行</text>
+    <line x1="682" y1="208" x2="892" y2="208" stroke="#D8E4F0" stroke-width="1" />
+    <text x="787" y="236" font-size="10.5" fill="#475569" text-anchor="middle">编码智能体</text>
+    <text x="787" y="256" font-size="10.5" fill="#475569" text-anchor="middle">读仓库 · 跑测试 · 自修复</text>
+    <text x="787" y="306" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">人委派任务 · AI 交付</text>
+    <text x="787" y="330" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">审查单位：每个任务产出</text>
+    <rect x="682" y="416" width="210" height="22" fill="#EEF4FB" />
+    <rect x="682" y="416" width="140" height="22" fill="#2064AE" />
+    <text x="787" y="468" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">AI 承担约 70%</text>
+
+    <rect x="946" y="106" width="270" height="392" rx="10" fill="#EEF4FB" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M946.83 112A10 10 0 0 1 956 106H1206A10 10 0 0 1 1215.17 112Z" fill="#08A6F6"/>
+    <text x="1081" y="150" font-size="10.5" fill="#64748B" text-anchor="middle">阶段四 · 2026–</text>
+    <text x="1081" y="188" font-size="17" font-weight="bold" fill="#2064AE" text-anchor="middle">智能体集群</text>
+    <line x1="976" y1="208" x2="1186" y2="208" stroke="#D8E4F0" stroke-width="1" />
+    <text x="1081" y="236" font-size="10.5" fill="#475569" text-anchor="middle">多智能体编排</text>
+    <text x="1081" y="256" font-size="10.5" fill="#475569" text-anchor="middle">独立工作区 · 跨会话协同</text>
+    <text x="1081" y="306" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">人定架构与规格</text>
+    <text x="1081" y="330" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">审查单位：合并策略</text>
+    <rect x="976" y="416" width="210" height="22" fill="#E4EBF5" />
+    <rect x="976" y="416" width="180" height="22" fill="#08A6F6" />
+    <text x="1081" y="468" font-size="12" font-weight="bold" fill="#2064AE" text-anchor="middle">AI 承担约 90%</text>
+
+    <rect x="64" y="522" width="1152" height="96" rx="8" fill="#0C2864" />
+    <text x="640" y="556" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">责任上移：写作者 → 审查者 → 编排者 → 验收者</text>
+    <text x="640" y="588" font-size="12" fill="#B9CCE4" text-anchor="middle">审查的对象越来越抽象，审查的责任却越来越重 · 你的价值取决于你能对多少代码负责</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">注：各阶段 AI 承担比例为示意值，用于表达相对趋势而非实测数据</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">2021–2026 · 工具演进谱系</text>
+  </g>
+</svg>

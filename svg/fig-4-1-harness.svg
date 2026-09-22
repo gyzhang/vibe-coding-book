@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 6-1 智能体 = 模型 + harness -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">智能体 = 模型 + harness：决定成败的在模型之外</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">裸模型不是智能体 · harness 赋予它状态、工具、约束与可验证的执行力</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="108" width="200" height="112" rx="8" fill="#94A3B8" />
+    <text x="164" y="158" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">模型</text>
+    <text x="164" y="182" font-size="10.5" fill="#EEF4FB" text-anchor="middle">权重 · 冻结 · 商品化</text>
+    <text x="164" y="202" font-size="10.5" fill="#EEF4FB" text-anchor="middle">任何人都买得到</text>
+    <text x="290" y="172" font-size="22" font-weight="bold" fill="#94A3B8" text-anchor="middle">+</text>
+    <rect x="320" y="100" width="620" height="128" rx="8" fill="#EEF4FB" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="340" y="126" font-size="12" font-weight="bold" fill="#2064AE">harness</text>
+    <rect x="340" y="138" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="433" y="162" font-size="10.5" fill="#475569" text-anchor="middle">上下文组装</text>
+    <rect x="537" y="138" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="630" y="162" font-size="10.5" fill="#475569" text-anchor="middle">工具执行</text>
+    <rect x="734" y="138" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="827" y="162" font-size="10.5" fill="#475569" text-anchor="middle">权限控制</text>
+    <rect x="340" y="184" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="433" y="208" font-size="10.5" fill="#475569" text-anchor="middle">反馈循环</text>
+    <rect x="537" y="184" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="630" y="208" font-size="10.5" fill="#475569" text-anchor="middle">错误恢复</text>
+    <rect x="734" y="184" width="186" height="38" rx="4" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
+    <text x="827" y="208" font-size="10.5" fill="#475569" text-anchor="middle">人工监督接口</text>
+    <text x="966" y="172" font-size="22" font-weight="bold" fill="#94A3B8" text-anchor="middle">=</text>
+    <rect x="996" y="108" width="220" height="112" rx="8" fill="#2064AE" />
+    <text x="1106" y="158" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">智能体</text>
+    <text x="1106" y="182" font-size="10.5" fill="#EEF4FB" text-anchor="middle">有状态 · 能动手</text>
+    <text x="1106" y="202" font-size="10.5" fill="#EEF4FB" text-anchor="middle">可审计 · 可约束</text>
+
+    <rect x="64" y="256" width="368" height="176" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="248" y="310" font-size="22" font-weight="bold" fill="#2064AE" text-anchor="middle">7 倍</text>
+    <text x="248" y="344" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">harness 的影响 ÷ 模型的选择</text>
+    <text x="248" y="372" font-size="10.5" fill="#475569" text-anchor="middle">基于 1,781 条真实编码智能体运行轨迹</text>
+    <text x="248" y="396" font-size="10.5" fill="#64748B" text-anchor="middle">同批分析还发现：开源权重模型已达</text>
+    <text x="248" y="414" font-size="10.5" fill="#64748B" text-anchor="middle">编码生产可用水平</text>
+
+    <rect x="456" y="256" width="368" height="176" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="640" y="310" font-size="22" font-weight="bold" fill="#2064AE" text-anchor="middle">25% → 43%</text>
+    <text x="640" y="344" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">只改「旧工具输出怎么处理」</text>
+    <text x="640" y="372" font-size="10.5" fill="#475569" text-anchor="middle">169 个真实任务中完全解决数 43 → 72</text>
+    <text x="640" y="396" font-size="10.5" fill="#64748B" text-anchor="middle">同期"失败测试被翻转为通过"</text>
+    <text x="640" y="414" font-size="10.5" fill="#64748B" text-anchor="middle">比例由 28% 升至 49%</text>
+
+    <rect x="848" y="256" width="368" height="176" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="1032" y="310" font-size="22" font-weight="bold" fill="#2064AE" text-anchor="middle">52.8% → 66.5%</text>
+    <text x="1032" y="344" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">只改 harness 层，不换模型</text>
+    <text x="1032" y="372" font-size="10.5" fill="#475569" text-anchor="middle">相对提升约 26%</text>
+    <text x="1032" y="396" font-size="10.5" fill="#64748B" text-anchor="middle">模型的权重一个字节都没有动</text>
+    <text x="1032" y="414" font-size="10.5" fill="#64748B" text-anchor="middle">评测应把"模型+harness"当一个整体</text>
+
+    <text x="64" y="470" font-size="14" font-weight="bold" fill="#0C2864">四条可以直接抄走的纪律</text>
+    <rect x="64" y="486" width="274" height="112" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="516" font-size="12" font-weight="bold" fill="#2064AE">仓库是唯一真理源</text>
+    <text x="84" y="542" font-size="10.5" fill="#475569">不在仓库里的信息</text>
+    <text x="84" y="562" font-size="10.5" fill="#475569">对智能体不存在</text>
+    <text x="84" y="586" font-size="10.5" fill="#64748B">先把知识入库，再谈自动化</text>
+    <rect x="350" y="486" width="274" height="112" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="370" y="516" font-size="12" font-weight="bold" fill="#2064AE">说明书是目录不是百科</text>
+    <text x="370" y="542" font-size="10.5" fill="#475569">约 100 行的索引，指向</text>
+    <text x="370" y="562" font-size="10.5" fill="#475569">深层文档，并按目录分发</text>
+    <text x="370" y="586" font-size="10.5" fill="#64748B">超长的单体指令会被当噪音</text>
+    <rect x="636" y="486" width="274" height="112" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="656" y="516" font-size="12" font-weight="bold" fill="#2064AE">架构约束机械化</text>
+    <text x="656" y="542" font-size="10.5" fill="#475569">靠持续集成，不靠人盯</text>
+    <text x="656" y="562" font-size="10.5" fill="#475569">智能体会忠实复制包括</text>
+    <text x="656" y="586" font-size="10.5" fill="#64748B">坏模式在内的一切既有模式</text>
+    <rect x="922" y="486" width="294" height="112" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="942" y="516" font-size="12" font-weight="bold" fill="#2064AE">"代理可读性"优先</text>
+    <text x="942" y="542" font-size="10.5" fill="#475569">代码与文档首先写给机器读</text>
+    <text x="942" y="562" font-size="10.5" fill="#475569">这一条与模块化原则完全同构</text>
+    <text x="942" y="586" font-size="10.5" fill="#64748B">人也是受益者</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：1,781 条真实轨迹的 harness 归因分析（2026-06）· 同模型不同 harness 的对照实验（2026）· 终端基准的 harness 层优化对照</text>
+  </g>
+</svg>

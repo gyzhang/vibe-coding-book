@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 5-1 复杂度利息：6.23 亿次代码变更的信号 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">复杂度利息：6.23 亿次代码变更给出的证据</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">AI 消灭偶然复杂度的速度，慢于它制造本质复杂度堆积的速度</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="104" width="274" height="64" rx="8" fill="#B9CCE4" />
+    <text x="201" y="142" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">生成提速</text>
+    <polygon points="344,124 360,136 344,148" fill="#94A3B8" />
+    <rect x="366" y="104" width="274" height="64" rx="8" fill="#7FA8D9" />
+    <text x="503" y="142" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">堆积提速</text>
+    <polygon points="646,124 662,136 646,148" fill="#94A3B8" />
+    <rect x="668" y="104" width="274" height="64" rx="8" fill="#3D86D4" />
+    <text x="805" y="142" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">复杂度利息复利累积</text>
+    <polygon points="948,124 964,136 948,148" fill="#94A3B8" />
+    <rect x="970" y="104" width="246" height="64" rx="8" fill="#DF203C" />
+    <text x="1093" y="142" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">一年后"越用越慢"</text>
+
+    <rect x="64" y="192" width="596" height="428" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="224" font-size="14" font-weight="bold" fill="#0C2864">五类信号同时朝错误方向移动</text>
+    <text x="84" y="244" font-size="10.5" fill="#64748B">追踪跨度 2023 → 2026 · 相对变化幅度</text>
+    <line x1="390" y1="272" x2="390" y2="564" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="170" y="307" font-size="10.5" fill="#475569" text-anchor="end">代码重复</text>
+    <rect x="390" y="290" width="162" height="26" fill="#DF203C" />
+    <text x="560" y="308" font-size="12" font-weight="bold" fill="#DF203C">＋81%</text>
+    <text x="170" y="365" font-size="10.5" fill="#475569" text-anchor="end">重构</text>
+    <rect x="250" y="348" width="140" height="26" fill="#1B4593" />
+    <text x="242" y="366" font-size="12" font-weight="bold" fill="#1B4593" text-anchor="end">−70%</text>
+    <text x="170" y="423" font-size="10.5" fill="#475569" text-anchor="end">长期遗留维护</text>
+    <rect x="242" y="406" width="148" height="26" fill="#1B4593" />
+    <text x="234" y="424" font-size="12" font-weight="bold" fill="#1B4593" text-anchor="end">−74%</text>
+    <text x="170" y="481" font-size="10.5" fill="#475569" text-anchor="end">跨文件连接度</text>
+    <rect x="320" y="464" width="70" height="26" fill="#B9CCE4" />
+    <text x="312" y="482" font-size="12" font-weight="bold" fill="#475569" text-anchor="end">−35%</text>
+    <text x="170" y="539" font-size="10.5" fill="#475569" text-anchor="end">掩盖错误的写法</text>
+    <rect x="390" y="522" width="94" height="26" fill="#B9770E" />
+    <text x="492" y="540" font-size="12" font-weight="bold" fill="#B9770E">＋47%</text>
+    <text x="84" y="588" font-size="10.5" fill="#94A3B8">红色为上升、蓝色为下降；幅度为报告口径的相对变化</text>
+
+    <rect x="680" y="192" width="536" height="428" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="700" y="224" font-size="14" font-weight="bold" fill="#0C2864">三个可操作的预警指标</text>
+    <text x="700" y="244" font-size="10.5" fill="#64748B">它们都极其便宜——一条持续集成任务就能出图</text>
+    <rect x="700" y="264" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="720" y="294" font-size="12" font-weight="bold" fill="#2064AE">新增代码中"复制已有代码"的比例</text>
+    <text x="720" y="320" font-size="10.5" fill="#475569">用重复代码检测工具按月追踪，而不是按季</text>
+    <text x="720" y="346" font-size="10.5" fill="#DF203C">这是最先恶化的那一个信号</text>
+    <rect x="700" y="384" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="720" y="414" font-size="12" font-weight="bold" fill="#2064AE">重构 / 搬移类变更的占比</text>
+    <text x="720" y="440" font-size="10.5" fill="#475569">把代码搬到更合理的位置——控制复杂度最有价值的变更</text>
+    <text x="720" y="466" font-size="10.5" fill="#DF203C">低于 15% 说明团队在只借不还</text>
+    <rect x="700" y="504" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="720" y="534" font-size="12" font-weight="bold" fill="#2064AE">模块测试覆盖率随时间的变化</text>
+    <text x="720" y="560" font-size="10.5" fill="#475569">注意看趋势，不看绝对值——覆盖率下滑意味着</text>
+    <text x="720" y="586" font-size="10.5" fill="#DF203C">新代码在绕过已有安全网</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：代码分析机构对 2023–2026 年间 6.23 亿次变更的可维护性追踪 · 相关性证据，非因果证明</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">同期亦受行业整体变化影响</text>
+  </g>
+</svg>

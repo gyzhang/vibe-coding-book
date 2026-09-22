@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 5-2 深模块与浅模块 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">深模块与浅模块：复杂度的唯一下水道</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">每个模块隐藏一个设计决策，只通过窄接口与世界对话</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="596" height="460" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">接口与实现的比例决定一切</text>
+    <text x="84" y="196" font-size="12" font-weight="bold" fill="#B9770E">浅模块</text>
+    <rect x="84" y="208" width="300" height="26" fill="#B9770E" />
+    <text x="234" y="227" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">宽接口</text>
+    <rect x="84" y="234" width="300" height="34" fill="#B9CCE4" />
+    <text x="234" y="256" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">薄实现</text>
+    <text x="400" y="227" font-size="10.5" fill="#DF203C">调用它比看懂它还费劲</text>
+    <text x="400" y="256" font-size="10.5" fill="#64748B">认知成本全部外泄给使用者</text>
+
+    <line x1="84" y1="304" x2="640" y2="304" stroke="#D8E4F0" stroke-width="1" />
+
+    <text x="84" y="344" font-size="12" font-weight="bold" fill="#2064AE">深模块</text>
+    <rect x="84" y="356" width="120" height="26" fill="#2064AE" />
+    <text x="144" y="375" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">窄接口</text>
+    <rect x="84" y="382" width="300" height="110" fill="#3D86D4" />
+    <text x="234" y="432" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">厚实现</text>
+    <text x="234" y="456" font-size="10.5" fill="#EEF4FB" text-anchor="middle">一行调用背后藏着千行机制</text>
+    <text x="400" y="375" font-size="10.5" fill="#08A6F6">使用者只付出一个函数签名</text>
+    <text x="400" y="404" font-size="10.5" fill="#64748B">换回一整个被隐藏的世界</text>
+    <text x="400" y="432" font-size="10.5" fill="#64748B">复杂度被关在模块内部</text>
+    <text x="400" y="460" font-size="10.5" fill="#64748B">对外只暴露一个承诺</text>
+    <text x="84" y="524" font-size="12" font-weight="bold" fill="#0C2864">深模块是复杂度的克星，也是唯一可规模化的抽象单位</text>
+    <text x="84" y="548" font-size="10.5" fill="#475569">复杂度不会消失，只能被收纳；收纳它的容器就是模块边界</text>
+
+    <rect x="680" y="100" width="536" height="460" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="700" y="134" font-size="14" font-weight="bold" fill="#0C2864">为什么模块化在 AI 时代是刚需</text>
+    <text x="700" y="154" font-size="10.5" fill="#64748B">智能体是模块化最敏感的读者</text>
+    <rect x="700" y="174" width="496" height="118" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M705 174.58A8 8 0 0 0 700 182V284A8 8 0 0 0 705 291.42Z" fill="#B9CCE4"/>
+    <text x="724" y="204" font-size="12" font-weight="bold" fill="#2064AE">模块是智能体的上下文锚点</text>
+    <text x="724" y="232" font-size="10.5" fill="#475569">面对百万行仓库，智能体的策略是"定位相关模块</text>
+    <text x="724" y="252" font-size="10.5" fill="#475569">→ 只读相关代码"。边界清晰，它就定位准、读得少</text>
+    <text x="724" y="276" font-size="10.5" fill="#DF203C">边界混乱（一个文件三千行），它要么漏改要么误改</text>
+    <rect x="700" y="306" width="496" height="118" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M705 306.58A8 8 0 0 0 700 314V416A8 8 0 0 0 705 423.42Z" fill="#7FA8D9"/>
+    <text x="724" y="336" font-size="12" font-weight="bold" fill="#2064AE">接口是智能体的行为边界</text>
+    <text x="724" y="364" font-size="10.5" fill="#475569">参数语义、错误约定、不变式写清楚，智能体生成的</text>
+    <text x="724" y="384" font-size="10.5" fill="#475569">代码才"插得进"现有系统而不破坏它</text>
+    <text x="724" y="408" font-size="10.5" fill="#DF203C">窄接口 = 给智能体画好的施工围挡</text>
+    <rect x="700" y="438" width="496" height="118" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M705 438.58A8 8 0 0 0 700 446V548A8 8 0 0 0 705 555.42Z" fill="#08A6F6"/>
+    <text x="724" y="468" font-size="12" font-weight="bold" fill="#2064AE">模块是并行智能体的工作区</text>
+    <text x="724" y="496" font-size="10.5" fill="#475569">并行的前提是任务依赖边界清晰——这正是模块化的</text>
+    <text x="724" y="516" font-size="10.5" fill="#475569">定义。两个智能体编辑同一文件必然互相覆盖</text>
+    <text x="724" y="540" font-size="10.5" fill="#DF203C">所以并行的工作必须能按文件切开</text>
+
+    <rect x="64" y="578" width="1152" height="54" rx="8" fill="#0C2864" />
+    <text x="640" y="612" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">模块化从"好习惯"升格为"生存技能"——它是对抗复利的唯一本金</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">思想来源：Parnas 的信息隐藏原则（1972）与 Ousterhout 的深模块理论</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">复杂度随规模超线性增长：n 个模块的潜在依赖为 O(n²)</text>
+  </g>
+</svg>

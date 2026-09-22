@@ -1,0 +1,10 @@
+# 构建产物（本仓库不存放；成品随 Releases 提供）
+Vibe Coding 时代的我们（2026·V3.2）.md
+Vibe Coding 时代的我们（2026·V3.2）.html
+Vibe Coding 时代的我们（2026·V3.2）（离线版）.html
+Vibe Coding 时代的我们（2026·V3.2）.pdf
+
+# 系统与缓存
+.DS_Store
+__pycache__/
+*.pyc

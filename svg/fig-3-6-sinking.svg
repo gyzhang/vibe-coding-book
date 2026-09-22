@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 3-6 治理载体下沉路径 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">治理载体下沉路径：从"靠自觉"到"被阻断"</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">一份 40 行、真的会拦人的脚本，比 40 页"请遵守规范"更有效</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 500">
+
+    <rect x="70" y="200" width="250" height="104" rx="10" fill="#F5F8FC" stroke="#D8E4F0" />
+    <text x="195" y="238" font-size="15" font-weight="bold" fill="#64748B" text-anchor="middle">口头提醒</text>
+    <text x="195" y="264" font-size="10.5" fill="#94A3B8" text-anchor="middle">经验在人的脑子里</text>
+    <text x="195" y="284" font-size="10.5" fill="#94A3B8" text-anchor="middle">人一走就没了</text>
+
+    <rect x="360" y="272" width="250" height="104" rx="10" fill="#EEF4FB" stroke="#D8E4F0" />
+    <text x="485" y="310" font-size="15" font-weight="bold" fill="#475569" text-anchor="middle">文档 · 决策记录</text>
+    <text x="485" y="336" font-size="10.5" fill="#94A3B8" text-anchor="middle">说清"为什么"，可被追溯</text>
+    <text x="485" y="356" font-size="10.5" fill="#94A3B8" text-anchor="middle">但它不拦人</text>
+
+    <rect x="650" y="344" width="250" height="104" rx="10" fill="#EEF4FB" stroke="#B9CCE4" />
+    <text x="775" y="382" font-size="15" font-weight="bold" fill="#2064AE" text-anchor="middle">检查清单 · 操作规范</text>
+    <text x="775" y="408" font-size="10.5" fill="#94A3B8" text-anchor="middle">动手前按任务类型过一遍</text>
+    <text x="775" y="428" font-size="10.5" fill="#94A3B8" text-anchor="middle">仍然靠自觉执行</text>
+
+    <rect x="940" y="416" width="250" height="104" rx="10" fill="#E8F1FD" stroke="#2064AE" />
+    <text x="1065" y="454" font-size="15" font-weight="bold" fill="#1B4593" text-anchor="middle">机器门禁</text>
+    <text x="1065" y="480" font-size="10.5" fill="#475569" text-anchor="middle">提交钩子 · 测试 · 构建 · 流水线</text>
+    <text x="1065" y="500" font-size="10.5" fill="#475569" text-anchor="middle">违反即阻断</text>
+
+    <path d="M320 232 L360 300 L352 300 L312 232 Z" fill="#B9CCE4" />
+    <text x="336" y="252" font-size="10.5" fill="#94A3B8">下沉</text>
+    <path d="M610 304 L650 372 L642 372 L602 304 Z" fill="#B9CCE4" />
+    <text x="626" y="324" font-size="10.5" fill="#94A3B8">下沉</text>
+    <path d="M900 376 L940 444 L932 444 L892 376 Z" fill="#7FA8D9" />
+    <text x="916" y="396" font-size="10.5" fill="#94A3B8">下沉</text>
+
+    <rect x="70" y="560" width="1120" height="72" rx="10" fill="#FDF3E3" stroke="#B9770E" />
+    <text x="94" y="590" font-size="12" font-weight="bold" fill="#B9770E">违规成本的变化</text>
+    <text x="94" y="614" font-size="11" fill="#475569">靠自觉 → 靠流程 → 靠阻断。每下沉一级，"知道"就变成"必须做"；而且只有门禁会产生数据：命中多少次、误报多少次、什么时候该废止</text>
+
+    <text x="64" y="176" font-size="11" fill="#94A3B8">越往右下，约束越硬</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 660 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">来源：作者项目实践（第 10 章）。局限：该回环的每一次发起仍靠人工，只覆盖开发期，未经真实生产流量与线上事故检验</text>
+  </g>
+</svg>

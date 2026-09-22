@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 3-1 好规格的六要素与三种成熟度 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">规格是什么：六要素与三种成熟度</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">好规格是可测试的，坏规格是可解释的 · 规格是合同，代码是履约，测试是仲裁</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="520" height="452" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="132" font-size="14" font-weight="bold" fill="#0C2864">好规格的六要素</text>
+    <text x="84" y="152" font-size="10.5" fill="#64748B">每一项都在堵一个具体的漏洞</text>
+    <rect x="84" y="170" width="4" height="34" fill="#2064AE" />
+    <text x="100" y="188" font-size="12" font-weight="bold" fill="#2064AE">问题陈述</text>
+    <text x="100" y="204" font-size="10.5" fill="#475569">不知道为什么做，于是做错方向</text>
+    <rect x="84" y="238" width="4" height="34" fill="#2064AE" />
+    <text x="100" y="256" font-size="12" font-weight="bold" fill="#2064AE">成功指标</text>
+    <text x="100" y="272" font-size="10.5" fill="#475569">无法判断做到什么程度算完</text>
+    <rect x="84" y="306" width="4" height="34" fill="#2064AE" />
+    <text x="100" y="324" font-size="12" font-weight="bold" fill="#2064AE">用户故事</text>
+    <text x="100" y="340" font-size="10.5" fill="#475569">不清楚谁在什么场景下使用</text>
+    <rect x="84" y="374" width="4" height="34" fill="#2064AE" />
+    <text x="100" y="392" font-size="12" font-weight="bold" fill="#2064AE">验收标准</text>
+    <text x="100" y="408" font-size="10.5" fill="#475569">无法机械化判定完成与否</text>
+    <rect x="84" y="442" width="4" height="34" fill="#DF203C" />
+    <text x="100" y="460" font-size="12" font-weight="bold" fill="#DF203C">非目标</text>
+    <text x="100" y="476" font-size="10.5" fill="#475569">边界失控、范围蔓延（最常被忽略）</text>
+    <rect x="84" y="510" width="4" height="34" fill="#2064AE" />
+    <text x="100" y="528" font-size="12" font-weight="bold" fill="#2064AE">约束</text>
+    <text x="100" y="544" font-size="10.5" fill="#475569">智能体自作主张改技术选型</text>
+
+    <rect x="612" y="100" width="604" height="452" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="632" y="132" font-size="14" font-weight="bold" fill="#0C2864">规格的三种成熟度</text>
+    <text x="632" y="152" font-size="10.5" fill="#64748B">选错层次，比不写规格更麻烦</text>
+
+    <rect x="632" y="170" width="564" height="116" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M637 170.58A8 8 0 0 0 632 178V278A8 8 0 0 0 637 285.42Z" fill="#B9CCE4"/>
+    <text x="656" y="198" font-size="14" font-weight="bold" fill="#2064AE">规格先行 · Spec-First</text>
+    <text x="656" y="224" font-size="10.5" fill="#475569">编码前书写，但常常在实现完成后被丢弃</text>
+    <text x="656" y="244" font-size="10.5" fill="#475569">代表：开源基线框架、规格原生 IDE</text>
+    <text x="656" y="270" font-size="11" fill="#64748B">适合大多团队的起步形态与一次性特征</text>
+
+    <rect x="632" y="300" width="564" height="116" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <path d="M637 300.58A8 8 0 0 0 632 308V408A8 8 0 0 0 637 415.42Z" fill="#3D86D4"/>
+    <text x="656" y="328" font-size="14" font-weight="bold" fill="#2064AE">规格锚定 · Spec-Anchored</text>
+    <text x="656" y="354" font-size="10.5" fill="#475569">规格持续存在，与代码库共同演进；用差量格式管增量</text>
+    <text x="656" y="374" font-size="10.5" fill="#475569">代表：变更中心的轻量框架（对已有项目友好）</text>
+    <text x="656" y="400" font-size="11" fill="#64748B">解决的关键问题：存量系统的持续迭代</text>
+
+    <rect x="632" y="430" width="564" height="116" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M637 430.58A8 8 0 0 0 632 438V538A8 8 0 0 0 637 545.42Z" fill="#08A6F6"/>
+    <text x="656" y="458" font-size="14" font-weight="bold" fill="#2064AE">规格即源 · Spec-as-Source</text>
+    <text x="656" y="484" font-size="10.5" fill="#475569">规格是唯一可编辑的产物，代码由规格生成</text>
+    <text x="656" y="504" font-size="10.5" fill="#475569">代表：文件头写明"由规格生成，请勿手改"</text>
+    <text x="656" y="530" font-size="11" fill="#DF203C">代价：产品锁定最深，错误按生成速度扩散</text>
+
+    <rect x="64" y="568" width="1152" height="64" rx="8" fill="#0C2864" />
+    <text x="640" y="596" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">粒度检验题：换一个技术栈实现，这份规格还成立吗？</text>
+    <text x="640" y="620" font-size="12" fill="#B9CCE4" text-anchor="middle">不成立，说明把实现方案混进了需求 · 规格不应比它产生的变更更长</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">参考实践：一份合格规格通常需要 3–5 轮迭代；变更被描述为"无缺陷"时，模型漏洞检出能力下降 16%–93%</text>
+  </g>
+</svg>

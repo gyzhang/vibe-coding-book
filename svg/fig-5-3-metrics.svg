@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 10-2 采纳漏斗与三级指标体系 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">采纳漏斗与指标体系：采纳率不等于生产率</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">只有最底端算数 · 口径不清的指标，比没有指标更危险</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="100" width="596" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">四级采纳漏斗</text>
+    <text x="84" y="154" font-size="10.5" fill="#64748B">"采纳率 90%"若指第一层，与"入库率 60%"是两回事</text>
+    <polygon points="140,180 540,180 512,254 168,254" fill="#B9CCE4" />
+    <text x="340" y="224" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">展示给开发者的生成量</text>
+    <polygon points="168,262 512,262 484,336 196,336" fill="#7FA8D9" />
+    <text x="340" y="306" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">开发者保留的量</text>
+    <polygon points="196,344 484,344 456,418 224,418" fill="#3D86D4" />
+    <text x="340" y="388" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">通过测试与评审的量</text>
+    <polygon points="224,426 456,426 428,500 252,500" fill="#1B4593" />
+    <text x="340" y="470" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">真实合入主干的量</text>
+    <rect x="252" y="504" width="176" height="30" rx="4" fill="#0C2864" />
+    <text x="340" y="525" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">只有这一层算数</text>
+    <text x="84" y="566" font-size="12" font-weight="bold" fill="#2064AE">入库率 = 第四层 ÷ 应交付代码量</text>
+    <text x="84" y="592" font-size="10.5" fill="#475569">它是"达成值"不是"合格线"：同一口径下不同团队差异很大，不可当成合格门槛</text>
+
+    <rect x="680" y="100" width="536" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="700" y="134" font-size="14" font-weight="bold" fill="#0C2864">三级指标体系</text>
+    <text x="700" y="154" font-size="10.5" fill="#64748B">三层缺一不可：只有使用指标会沦为热度汇报</text>
+    <rect x="700" y="172" width="496" height="92" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M705 172.58A8 8 0 0 0 700 180V256A8 8 0 0 0 705 263.42Z" fill="#B9CCE4"/>
+    <text x="724" y="200" font-size="12" font-weight="bold" fill="#2064AE">使用指标</text>
+    <text x="724" y="224" font-size="10.5" fill="#475569">用户数 · 生成量 · 采纳率 · 活跃度</text>
+    <text x="724" y="248" font-size="10.5" fill="#64748B">作用：诊断"为什么没跑起来"，不是成果</text>
+    <rect x="700" y="276" width="496" height="92" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
+    <path d="M705 276.58A8 8 0 0 0 700 284V360A8 8 0 0 0 705 367.42Z" fill="#7FA8D9"/>
+    <text x="724" y="304" font-size="12" font-weight="bold" fill="#2064AE">过程指标</text>
+    <text x="724" y="328" font-size="10.5" fill="#475569">需求、设计、编码、测试、评审各环节时长与通过率</text>
+    <text x="724" y="352" font-size="10.5" fill="#64748B">作用：定位瓶颈在哪一环</text>
+    <rect x="700" y="380" width="496" height="92" rx="8" fill="#FFFFFF" stroke="#2064AE" stroke-width="1.5" />
+    <path d="M705 380.58A8 8 0 0 0 700 388V464A8 8 0 0 0 705 471.42Z" fill="#1B4593"/>
+    <text x="724" y="408" font-size="12" font-weight="bold" fill="#2064AE">结果指标</text>
+    <text x="724" y="432" font-size="10.5" fill="#475569">研发周期 · 质量 · 成本 · 业务交付结果</text>
+    <text x="724" y="456" font-size="10.5" fill="#DF203C">作用：唯一可以对外承诺的一层</text>
+    <rect x="700" y="488" width="496" height="108" rx="8" fill="#EEF4FB" stroke="#B9CCE4" stroke-width="1" />
+    <path d="M705 488.58A8 8 0 0 0 700 496V588A8 8 0 0 0 705 595.42Z" fill="#1B4593"/>
+    <text x="724" y="512" font-size="10.5" fill="#64748B">公开研究锚点（供参照，不是本书设定的目标值）</text>
+    <text x="724" y="540" font-size="12" font-weight="bold" fill="#2064AE">AI 生成代码接受率 20% → 60%</text>
+    <text x="724" y="562" font-size="10.5" fill="#475569">代码流失率 +861% · 未经评审即合并的 PR +31.3%</text>
+    <text x="724" y="584" font-size="10.5" fill="#94A3B8">Faros AI《AI Engineering Report 2026》· 22,000 名开发者 / 4,000+ 团队</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">三条使用纪律：只对结果指标承诺 · 每个指标必须配一个反向指标 · 目标值与达成值分列，不得并进同一格</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">允许 AI 代码缺陷上限略高于人工，因其配套了更高测试与评审强度</text>
+  </g>
+</svg>

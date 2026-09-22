@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 2-5 三个层次的变革 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">三个层次的变革：一层比一层深</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">效率提升是线性的 · 可能性解放是阶跃式的</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 520">
+
+    <rect x="80" y="440" width="340" height="180" rx="10" fill="#F5F8FC" stroke="#D8E4F0" />
+    <path d="M80.83 446A10 10 0 0 1 90 440H410A10 10 0 0 1 419.17 446Z" fill="#B9CCE4"/>
+    <text x="104" y="482" font-size="11" fill="#94A3B8">第一层</text>
+    <text x="104" y="512" font-size="17" font-weight="bold" fill="#0C2864">效率提升</text>
+    <text x="104" y="540" font-size="11" fill="#64748B">同样的事情做得更快</text>
+    <text x="104" y="566" font-size="11" fill="#64748B">补全 · 生成测试 · 写文档 · 改样式</text>
+    <text x="104" y="600" font-size="11" font-weight="bold" fill="#2064AE">量变</text>
+
+    <rect x="470" y="360" width="340" height="260" rx="10" fill="#EEF4FB" stroke="#B9CCE4" />
+    <path d="M470.83 366A10 10 0 0 1 480 360H800A10 10 0 0 1 809.17 366Z" fill="#7FA8D9"/>
+    <text x="494" y="402" font-size="11" fill="#94A3B8">第二层</text>
+    <text x="494" y="432" font-size="17" font-weight="bold" fill="#0C2864">隐性成本的蒸发</text>
+    <text x="494" y="460" font-size="11" fill="#64748B">一个人做到了原本一个团队的事</text>
+    <text x="494" y="486" font-size="11" fill="#64748B">压掉的不是打字时间，是协调时间：</text>
+    <text x="494" y="510" font-size="11" fill="#64748B">评审 · 对齐 · 信息失真 · 返工</text>
+    <text x="494" y="540" font-size="11" fill="#64748B">一个人干的时候，这几项几乎不存在</text>
+    <text x="494" y="600" font-size="11" font-weight="bold" fill="#2064AE">质变的开始</text>
+
+    <rect x="860" y="280" width="340" height="340" rx="10" fill="#E8F1FD" stroke="#7FA8D9" />
+    <path d="M860.83 286A10 10 0 0 1 870 280H1190A10 10 0 0 1 1199.17 286Z" fill="#2064AE"/>
+    <text x="884" y="322" font-size="11" fill="#94A3B8">第三层</text>
+    <text x="884" y="352" font-size="17" font-weight="bold" fill="#1B4593">可能性解放</text>
+    <text x="884" y="380" font-size="11" fill="#64748B">"改"的成本降到一个人能承受</text>
+    <text x="884" y="406" font-size="11" fill="#64748B">于是"改不改"不再是经济决策，</text>
+    <text x="884" y="430" font-size="11" fill="#64748B">而是一个审美判断</text>
+    <text x="884" y="462" font-size="11" fill="#64748B">多次重构成为合理的开发策略：</text>
+    <text x="884" y="486" font-size="11" fill="#64748B">70 分 → 85 分 → 90 分，每一步</text>
+    <text x="884" y="510" font-size="11" fill="#64748B">成本都很低</text>
+    <text x="884" y="600" font-size="11" font-weight="bold" fill="#1B4593">质变</text>
+
+    <text x="250" y="656" font-size="11" fill="#64748B" text-anchor="middle">同样的事更快</text>
+    <text x="640" y="656" font-size="11" fill="#64748B" text-anchor="middle">更多的事可做</text>
+    <text x="1030" y="656" font-size="11" fill="#64748B" text-anchor="middle">以前不会做的事，现在可以做了</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 668 1280 40">
+    <text x="64" y="692" font-size="11" fill="#94A3B8">来源：作者自述（第 6 章）。三个层次的划分为本书的判断框架，不是行业标准分类</text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
+  <!-- 图 1-3 感受与事实：三种落差 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="0 14 1280 58">
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">感受与事实：三种落差</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">同一个工具，在三种测量口径下可以给出三种相反的结论</text>
+  </g>
+  <g id="content" data-pptx-bounds="40 84 1200 560">
+    <rect x="64" y="106" width="360" height="346" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="244" y="140" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">落差一 · 感知与事实</text>
+    <text x="244" y="162" font-size="11" fill="#64748B" text-anchor="middle">同一随机对照实验中的三种口径</text>
+    <line x1="236" y1="186" x2="236" y2="352" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="80" y="200" font-size="10.5" fill="#475569">实验前预测</text>
+    <rect x="236" y="206" width="150" height="20" fill="#B9CCE4" />
+    <text x="311" y="221" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">＋24%</text>
+    <text x="80" y="256" font-size="10.5" fill="#475569">实验后自评</text>
+    <rect x="236" y="262" width="125" height="20" fill="#7FA8D9" />
+    <text x="299" y="277" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">＋20%</text>
+    <text x="80" y="312" font-size="10.5" fill="#475569">实测结果</text>
+    <rect x="117" y="318" width="119" height="20" fill="#DF203C" />
+    <text x="176" y="333" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">−19%</text>
+    <line x1="88" y1="362" x2="400" y2="362" stroke="#D8E4F0" stroke-width="1" />
+    <text x="244" y="388" font-size="12" font-weight="bold" fill="#DF203C" text-anchor="middle">感知与事实相差 39 个百分点</text>
+    <text x="244" y="412" font-size="10.5" fill="#64748B" text-anchor="middle">资深开发者 · 自己的成熟仓库 · 246 个真实任务</text>
+    <text x="244" y="434" font-size="10.5" fill="#475569" text-anchor="middle">对明确、局部、易验证的任务，结论并不相同</text>
+
+    <rect x="460" y="106" width="360" height="346" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="640" y="140" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">落差二 · 先降后升</text>
+    <text x="640" y="162" font-size="11" fill="#64748B" text-anchor="middle">组织级投资回报的 J 曲线</text>
+    <line x1="500" y1="380" x2="800" y2="380" stroke="#D8E4F0" stroke-width="1" />
+    <line x1="500" y1="190" x2="500" y2="380" stroke="#D8E4F0" stroke-width="1" />
+    <polyline points="500,250 525,292 555,330 585,345 620,336 660,306 700,266 740,226 780,196 800,184" fill="none" stroke="#2064AE" stroke-width="3" />
+    <circle cx="500" cy="250" r="5" fill="#94A3B8" />
+    <circle cx="585" cy="345" r="6" fill="#DF203C" />
+    <circle cx="800" cy="184" r="5" fill="#08A6F6" />
+    <text x="512" y="240" font-size="10.5" fill="#64748B">起步</text>
+    <text x="600" y="360" font-size="10.5" fill="#DF203C">适配期：先降</text>
+    <text x="742" y="172" font-size="10.5" fill="#08A6F6">收益兑现</text>
+    <line x1="484" y1="392" x2="796" y2="392" stroke="#D8E4F0" stroke-width="1" />
+    <text x="640" y="416" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">首年 ROI 约 39% · 回收期约 8 个月</text>
+    <text x="640" y="438" font-size="10.5" fill="#64748B" text-anchor="middle">代价：变更失败率 5% → 6%，折算停机成本约 34.4 万美元</text>
+
+    <rect x="856" y="106" width="360" height="346" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
+    <text x="1036" y="140" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">落差三 · 任务分层</text>
+    <text x="1036" y="162" font-size="11" fill="#64748B" text-anchor="middle">同一工具在不同任务上的增益</text>
+    <text x="880" y="212" font-size="10.5" fill="#475569">简单 / 绿地任务</text>
+    <rect x="880" y="220" width="280" height="26" fill="#08A6F6" />
+    <text x="1020" y="239" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">35% – 40%</text>
+    <text x="880" y="294" font-size="10.5" fill="#475569">复杂遗留代码</text>
+    <rect x="880" y="302" width="70" height="26" fill="#B9CCE4" />
+    <text x="975" y="321" font-size="12" font-weight="bold" fill="#0C2864">≤ 10%</text>
+    <line x1="880" y1="352" x2="1192" y2="352" stroke="#D8E4F0" stroke-width="1" />
+    <text x="1036" y="380" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">不要用一个百分比概括软件工程</text>
+    <text x="1036" y="404" font-size="10.5" fill="#64748B" text-anchor="middle">任务类型 · 代码库年龄 · 语言常见度</text>
+    <text x="1036" y="426" font-size="10.5" fill="#475569" text-anchor="middle">共同决定增益的方向与幅度</text>
+
+    <rect x="64" y="474" width="1152" height="140" rx="8" fill="#0C2864" />
+    <text x="640" y="512" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">度量三问：分母是什么？周期是哪一段？质量与返工算进去了吗？</text>
+    <text x="640" y="544" font-size="12" fill="#B9CCE4" text-anchor="middle">感知与事实的落差、投资回报的凹陷、任务类型的分层——三者共同解释了</text>
+    <text x="640" y="572" font-size="12" fill="#B9CCE4" text-anchor="middle">为什么"提效 X%"几乎总是感受而非结论</text>
+  </g>
+  <g id="footnote" data-pptx-bounds="0 650 1280 40">
+    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：METR 随机对照实验（2025-07）及 2026-02 跟进；某年度研究报告对 500 人组织的 ROI 建模（2026-05）；斯坦福团队基于约 10 万名开发者的任务分层估计</text>
+    <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">口径不可互相换算</text>
+  </g>
+</svg>
