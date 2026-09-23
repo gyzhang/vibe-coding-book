@@ -74,6 +74,10 @@ python3 scripts/probe_text.py . --new "新文本" --old "旧文本"             
 - 本项目**不使用**微软雅黑（其著作权归方正，商业发布需单独授权）、苹方等系统字体作为发布用字；字体栈里保留的系统字体名**仅作本机兜底**，其字形不随本仓库或任何产物分发。
 - 下载版 HTML 内嵌的是上述免费字体的**子集**（woff2，按正文实际用字裁剪）；PDF 的中文字形同样来自思源黑体。
 - `--embed-fonts` 需要本机安装这两种字体，缺失时会明确报错并给出下载地址（见 [思源黑体](https://github.com/adobe-fonts/source-han-sans/releases) / [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono/releases) 的官方 release 页）。
+- ⚠️ **在线阅读版的字体是"外挂"的，产物本身不含字体**：它的 `@font-face` 指向站点的 `/site/fonts/book-sans-*.woff2` 与 `book-mono-*.woff2`，而**本仓库不提供这些文件**（它们是按"书库累计字集"生成的站点级资源）。因此：
+  - **只想自己读、或分发给朋友** → 请构建**下载版**（`python3 scripts/build_html.py --embed-fonts`），单文件自包含、离线可读、不依赖任何外部字体；
+  - **要在自己的站点上托管在线阅读版** → 需按正文实际用字自行生成字体子集（`pyftsubset`，可参考 `build_html.py` 中 `build_fontface()` 的写法）并部署到该站点的 `/site/fonts/` 下，否则访客端会**静默回落系统字体**（能读，但字形各平台不一）。
+- **字体版本建议固定**：本版成品由**思源黑体 1.x（Apache-2.0）** + **JetBrains Mono 2.304** 生成。更换字体大版本会让字形产生细微差异，同一本书的新旧产物将不一致，升级前请留意。
 
 ---
 

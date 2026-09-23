@@ -8,3 +8,6 @@ Vibe Coding 时代的我们（2026·V3.2）.pdf
 .DS_Store
 __pycache__/
 *.pyc
+
+# 工作区（含内部工作日志与私有仓路径，切勿公开）
+.workbuddy/

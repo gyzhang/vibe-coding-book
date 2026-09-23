@@ -92,6 +92,10 @@ python3 scripts/probe_text.py . --new "新文本片段" --old "旧文本片段"
   - 等宽 = **JetBrains Mono**（SIL OFL 1.1）
 
   两者均须**安装到系统字体目录**（macOS 为 `~/Library/Fonts` 或 `/Library/Fonts`）；缺失时 `build_html.py --embed-fonts` 会明确报错并打印官方下载地址，**不会静默降级**。
+- ⚠️ **在线阅读版的字体是"外挂"的，产物本身不含字体**：它只在 CSS 里写 `@font-face` 指向 `/site/fonts/book-sans-*.woff2` 与 `book-mono-*.woff2`，而**本仓库不提供这些文件**（它们是按"书库累计字集"生成的站点级资源）。
+  - **自用 / 分发给读者** → 用 `--embed-fonts` 的**下载版**（单文件自包含，不依赖任何外部字体）。
+  - **要自建在线阅读站** → 需按自己正文的实际用字生成子集（`pyftsubset`，参考 `build_html.py` 中 `build_fontface()` 的实现）并放到站点的 `/site/fonts/` 下，否则会静默回落系统字体。
+- **字体版本建议固定**：本版产物由**思源黑体 1.x（Apache-2.0）** + **JetBrains Mono 2.304** 生成。更换字体大版本会让字形有细微差异（同一本书的新旧产物不一致），升级前请留意。
 
 ---
 
