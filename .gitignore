@@ -1,10 +1,8 @@
-# 构建产物（本仓库不存放；成品随 Releases 提供）
-Vibe Coding 时代的我们（2026·V3.2）.md
-Vibe Coding 时代的我们（2026·V3.2）.html
-Vibe Coding 时代的我们（2026·V3.2）（离线版）.html
-Vibe Coding 时代的我们（2026·V3.2）.pdf
+# 构建产物：统一收进 dist/（自包含：md / 两版 HTML / pdf / images 拷贝），整体忽略。
+# 2026-09-25 目录重构（仿前端 dist 模式）——此后版本升级不再需要逐个添加忽略项。
+dist/
 
-# 系统与缓存
+# 系统文件与缓存
 .DS_Store
 __pycache__/
 *.pyc

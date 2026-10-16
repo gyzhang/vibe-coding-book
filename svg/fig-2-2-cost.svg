@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 1-2 软件生产成本结构的两次迁移 -->
+  <!-- 图 2-2 软件生产成本结构的两次迁移 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">软件生产成本结构的两次迁移</text>
@@ -47,6 +47,7 @@
     <text x="1216" y="636" font-size="11" font-weight="bold" fill="#DF203C" text-anchor="end">被压缩的只有"编写"这一项</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
-    <text x="64" y="672" font-size="11" fill="#94A3B8">口径：示意性成本结构（传统时代编码约 45% → 智能体时代约 8%；验证与测试约 18% → 约 42%），仅表达迁移方向；各行经验研究对"编码占生命周期成本比例"的估计区间为 20%–35%</text>
+    <text x="64" y="672" font-size="11" fill="#94A3B8">口径：示意性成本结构（传统时代编码约 45% → 智能体时代约 8%；验证与测试约 18% → 约 42%），仅表达迁移方向</text>
+    <text x="64" y="690" font-size="11" fill="#94A3B8">45% 指"编写占可见工作量"，不是占全生命周期成本的比例——两个分母别混着看，别与其他口径直接对照</text>
   </g>
 </svg>

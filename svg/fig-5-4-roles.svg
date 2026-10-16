@@ -1,50 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 11-1 岗位结构变化：入口收窄与判断力升值 -->
+  <!-- 图 5-4 当入门任务被自动化：判断力怎样积累 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
-    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">入口在变窄，判断力在变贵</text>
-    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">这不是"AI 消灭了程序员"，而是"梯子的第一级被拆掉了"</text>
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">当入门任务被自动化，判断力怎样积累？</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">小任务正在被自动化；新人的练习场，需要有人显式设计</text>
   </g>
   <g id="content" data-pptx-bounds="40 84 1200 560">
     <rect x="64" y="100" width="596" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
-    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">入口岗位的下行幅度</text>
-    <text x="84" y="154" font-size="10.5" fill="#64748B">均为相对某一基期的变化，各来源口径不同，不可相加</text>
-    <text x="220" y="192" font-size="10.5" fill="#475569" text-anchor="end">初级开发者招聘</text>
-    <rect x="230" y="178" width="175" height="24" fill="#B9CCE4" />
-    <text x="415" y="196" font-size="12" font-weight="bold" fill="#1B4593">明显下行</text>
-    <text x="220" y="234" font-size="10.5" fill="#475569" text-anchor="end">入门级通用工程岗</text>
-    <rect x="230" y="220" width="125" height="24" fill="#B9CCE4" />
-    <text x="365" y="238" font-size="12" font-weight="bold" fill="#1B4593">有所下行</text>
-    <text x="220" y="276" font-size="10.5" fill="#475569" text-anchor="end">编程训练营入学</text>
-    <rect x="230" y="262" width="200" height="24" fill="#7FA8D9" />
-    <text x="440" y="280" font-size="12" font-weight="bold" fill="#1B4593">明显下行</text>
-    <text x="220" y="318" font-size="10.5" fill="#475569" text-anchor="end">大型科技企业新毕业生</text>
-    <rect x="230" y="304" width="325" height="24" fill="#3D86D4" />
-    <text x="565" y="322" font-size="12" font-weight="bold" fill="#1B4593">大幅下行</text>
-    <text x="220" y="360" font-size="10.5" fill="#475569" text-anchor="end">早期创业公司新毕业生</text>
-    <rect x="230" y="346" width="380" height="24" fill="#2064AE" />
-    <text x="620" y="364" font-size="12" font-weight="bold" fill="#1B4593">大幅下行</text>
+    <text x="84" y="134" font-size="14" font-weight="bold" fill="#0C2864">判断力如何积累：一条概念路径</text>
+    <text x="84" y="154" font-size="10.5" fill="#64748B">这是本书的组织培养建议，不是就业统计</text>
+    <rect x="84" y="180" width="124" height="60" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="146" y="216" font-size="13" font-weight="bold" fill="#2064AE" text-anchor="middle">小任务</text>
+    <polygon points="214,204 224,212 214,220" fill="#94A3B8" />
+    <rect x="232" y="180" width="124" height="60" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="294" y="216" font-size="13" font-weight="bold" fill="#2064AE" text-anchor="middle">获得反馈</text>
+    <polygon points="362,204 372,212 362,220" fill="#94A3B8" />
+    <rect x="380" y="180" width="124" height="60" rx="6" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
+    <text x="442" y="210" font-size="13" font-weight="bold" fill="#2064AE" text-anchor="middle">理解</text>
+    <text x="442" y="230" font-size="13" font-weight="bold" fill="#2064AE" text-anchor="middle">失败后果</text>
+    <polygon points="510,204 520,212 510,220" fill="#94A3B8" />
+    <rect x="528" y="180" width="112" height="60" rx="6" fill="#2064AE" />
+    <text x="584" y="216" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">独立判断</text>
 
-    <line x1="84" y1="392" x2="640" y2="392" stroke="#D8E4F0" stroke-width="1" />
-    <rect x="84" y="408" width="556" height="90" rx="8" fill="#FFFFFF" stroke="#DF203C" stroke-width="1.5" />
-    <text x="106" y="436" font-size="12" font-weight="bold" fill="#DF203C">对比：AI 工程师岗位同期显著上行</text>
-    <text x="106" y="460" font-size="10.5" fill="#475569">AI / 机器学习工程人才缺口同期扩大</text>
-    <text x="106" y="484" font-size="10.5" fill="#64748B">22–25 岁、AI 高暴露职业的就业低于反事实（多项研究结论一致）</text>
-    <rect x="84" y="510" width="556" height="90" rx="8" fill="#FDF3E3" stroke="#B9770E" stroke-width="1" />
-    <text x="106" y="538" font-size="12" font-weight="bold" fill="#B9770E">必须标注的局限</text>
-    <text x="106" y="562" font-size="10.5" fill="#475569">就业数据是相关性证据，不是因果证明——同期还叠加了利率环境</text>
-    <text x="106" y="582" font-size="10.5" fill="#475569">与科技行业整体招聘收缩。但它足以支撑一个组织层面的结论：</text>
-    <text x="106" y="598" font-size="10.5" fill="#DF203C">如何让新人获得判断力，必须被显式回答，它不会自动解决</text>
+    <rect x="84" y="272" width="556" height="104" rx="8" fill="#FFFFFF" stroke="#DF203C" stroke-width="1.5" />
+    <text x="106" y="300" font-size="12" font-weight="bold" fill="#DF203C">风险提示</text>
+    <text x="106" y="326" font-size="10.5" fill="#475569">如果组织只减少初级任务，却不设计练习与反馈，</text>
+    <text x="106" y="348" font-size="10.5" fill="#DF203C">新人培养可能受损——这条路不会自动接上</text>
+
+    <rect x="84" y="400" width="556" height="150" rx="8" fill="#FFFFFF" stroke="#2064AE" stroke-width="1.5" />
+    <text x="106" y="428" font-size="12" font-weight="bold" fill="#2064AE">可以做的事</text>
+    <text x="106" y="456" font-size="10.5" fill="#475569">· 安排有导师反馈的小型真实任务</text>
+    <text x="106" y="480" font-size="10.5" fill="#475569">· 记录取舍与复盘，让失败变得可见</text>
+    <text x="106" y="504" font-size="10.5" fill="#475569">· 随判断力增长，逐步扩大责任范围</text>
+    <text x="106" y="530" font-size="10.5" fill="#64748B">练习与反馈是设计出来的，不是裁掉初级岗位后剩下的</text>
 
     <rect x="680" y="100" width="536" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
-    <text x="700" y="134" font-size="14" font-weight="bold" fill="#0C2864">筛选标准已经位移</text>
-    <text x="700" y="154" font-size="10.5" fill="#64748B">雇主看的不再是"你能用智能体产出什么"</text>
+    <text x="700" y="134" font-size="14" font-weight="bold" fill="#0C2864">本书建议重视的三种能力</text>
+    <text x="700" y="154" font-size="10.5" fill="#64748B">能力描述，不是"所有雇主已统一改变筛选标准"的调查结论</text>
     <rect x="700" y="172" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M705 172.58A8 8 0 0 0 700 180V268A8 8 0 0 0 705 275.42Z" fill="#2064AE"/>
     <text x="724" y="202" font-size="12" font-weight="bold" fill="#2064AE">一 · 评审流利度</text>
     <text x="724" y="228" font-size="10.5" fill="#475569">能否读完一份 400 行的生成变更，并在其中找出</text>
     <text x="724" y="248" font-size="10.5" fill="#475569">会让凌晨三点告警的那两行</text>
-    <text x="724" y="268" font-size="10.5" fill="#64748B">评审者的负载已经在成倍上升</text>
+    <text x="724" y="268" font-size="10.5" fill="#64748B">生成变多之后，这项能力更稀缺</text>
     <rect x="700" y="288" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M705 288.58A8 8 0 0 0 700 296V384A8 8 0 0 0 705 391.42Z" fill="#3D86D4"/>
     <text x="724" y="318" font-size="12" font-weight="bold" fill="#2064AE">二 · 系统级判断</text>
@@ -54,7 +52,7 @@
     <rect x="700" y="404" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M705 404.58A8 8 0 0 0 700 412V500A8 8 0 0 0 705 507.42Z" fill="#08A6F6"/>
     <text x="724" y="434" font-size="12" font-weight="bold" fill="#2064AE">三 · 知道什么时候不该委托</text>
-    <text x="724" y="460" font-size="10.5" fill="#475569">随机对照实验与任务分层研究指向同一件事：AI 在成熟</text>
+    <text x="724" y="460" font-size="10.5" fill="#475569">第 4 章的两个实验指向同一件事：AI 在成熟</text>
     <text x="724" y="480" font-size="10.5" fill="#475569">代码与难题上帮助最小。能划出这条边界的人</text>
     <text x="724" y="500" font-size="10.5" fill="#DF203C">避开了同侪报告为"提速"的那个减速陷阱</text>
     <rect x="700" y="524" width="496" height="76" rx="8" fill="#0C2864" />
@@ -63,6 +61,6 @@
     <text x="724" y="594" font-size="10.5" fill="#B9CCE4">保留、修改、拒绝哪些部分——比一小时白板题更能暴露判断力</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
-    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：就业研究 · 招聘平台与行业统计 · 风投人才研究 · 工资单就业追踪。各来源基期与口径不同、不可相加；幅度随时期变化很快，图中只保留方向，具体数值见第 15 章正文表与附录 A</text>
+    <text x="64" y="672" font-size="11" fill="#94A3B8">本书的组织培养建议，非就业统计图；不据此归因招聘变化 · 概念路径与三种能力见第 15 章 15.1</text>
   </g>
 </svg>

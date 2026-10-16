@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 5-2 深模块与浅模块 -->
+  <!-- 图 3-5 深模块与浅模块 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
-    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">深模块与浅模块：复杂度的唯一下水道</text>
+    <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">深模块与浅模块：把复杂度收纳进模块边界</text>
     <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">每个模块隐藏一个设计决策，只通过窄接口与世界对话</text>
   </g>
   <g id="content" data-pptx-bounds="40 84 1200 560">
@@ -28,8 +28,8 @@
     <text x="400" y="404" font-size="10.5" fill="#64748B">换回一整个被隐藏的世界</text>
     <text x="400" y="432" font-size="10.5" fill="#64748B">复杂度被关在模块内部</text>
     <text x="400" y="460" font-size="10.5" fill="#64748B">对外只暴露一个承诺</text>
-    <text x="84" y="524" font-size="12" font-weight="bold" fill="#0C2864">深模块是复杂度的克星，也是唯一可规模化的抽象单位</text>
-    <text x="84" y="548" font-size="10.5" fill="#475569">复杂度不会消失，只能被收纳；收纳它的容器就是模块边界</text>
+    <text x="84" y="524" font-size="12" font-weight="bold" fill="#0C2864">深模块是复杂度的克星，也是可规模化的抽象单位</text>
+    <text x="84" y="548" font-size="10.5" fill="#475569">减少不必要的复杂度，把必要的复杂度收纳进模块边界</text>
 
     <rect x="680" y="100" width="536" height="460" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="700" y="134" font-size="14" font-weight="bold" fill="#0C2864">为什么模块化在 AI 时代是刚需</text>
@@ -39,7 +39,7 @@
     <text x="724" y="204" font-size="12" font-weight="bold" fill="#2064AE">模块是智能体的上下文锚点</text>
     <text x="724" y="232" font-size="10.5" fill="#475569">面对百万行仓库，智能体的策略是"定位相关模块</text>
     <text x="724" y="252" font-size="10.5" fill="#475569">→ 只读相关代码"。边界清晰，它就定位准、读得少</text>
-    <text x="724" y="276" font-size="10.5" fill="#DF203C">边界混乱（一个文件三千行），它要么漏改要么误改</text>
+    <text x="724" y="276" font-size="10.5" fill="#DF203C">边界混乱（一个文件三千行），它就容易漏改或误改</text>
     <rect x="700" y="306" width="496" height="118" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <path d="M705 306.58A8 8 0 0 0 700 314V416A8 8 0 0 0 705 423.42Z" fill="#7FA8D9"/>
     <text x="724" y="336" font-size="12" font-weight="bold" fill="#2064AE">接口是智能体的行为边界</text>
@@ -49,12 +49,12 @@
     <rect x="700" y="438" width="496" height="118" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M705 438.58A8 8 0 0 0 700 446V548A8 8 0 0 0 705 555.42Z" fill="#08A6F6"/>
     <text x="724" y="468" font-size="12" font-weight="bold" fill="#2064AE">模块是并行智能体的工作区</text>
-    <text x="724" y="496" font-size="10.5" fill="#475569">并行的前提是任务依赖边界清晰——这正是模块化的</text>
-    <text x="724" y="516" font-size="10.5" fill="#475569">定义。两个智能体编辑同一文件必然互相覆盖</text>
-    <text x="724" y="540" font-size="10.5" fill="#DF203C">所以并行的工作必须能按文件切开</text>
+    <text x="724" y="496" font-size="10.5" fill="#475569">并行工作先隔离变更，再按依赖边界分工</text>
+    <text x="724" y="516" font-size="10.5" fill="#475569">独立分支可修改同一文件，合并仍需检查语义冲突</text>
+    <text x="724" y="540" font-size="10.5" fill="#DF203C">不同文件也可能破坏同一接口；合并后仍要整体验证</text>
 
     <rect x="64" y="578" width="1152" height="54" rx="8" fill="#0C2864" />
-    <text x="640" y="612" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">模块化从"好习惯"升格为"生存技能"——它是对抗复利的唯一本金</text>
+    <text x="640" y="612" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">模块化从"好习惯"升格为"生存技能"——它是对抗复利的本金</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
     <text x="64" y="672" font-size="11" fill="#94A3B8">思想来源：Parnas 的信息隐藏原则（1972）与 Ousterhout 的深模块理论</text>

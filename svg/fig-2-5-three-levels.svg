@@ -3,7 +3,7 @@
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">三个层次的变革：一层比一层深</text>
-    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">效率提升是线性的 · 可能性解放是阶跃式的</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">既改善效率，也可能降低尝试的门槛</text>
   </g>
   <g id="content" data-pptx-bounds="40 84 1200 520">
 
@@ -18,11 +18,11 @@
     <rect x="470" y="360" width="340" height="260" rx="10" fill="#EEF4FB" stroke="#B9CCE4" />
     <path d="M470.83 366A10 10 0 0 1 480 360H800A10 10 0 0 1 809.17 366Z" fill="#7FA8D9"/>
     <text x="494" y="402" font-size="11" fill="#94A3B8">第二层</text>
-    <text x="494" y="432" font-size="17" font-weight="bold" fill="#0C2864">隐性成本的蒸发</text>
+    <text x="494" y="432" font-size="17" font-weight="bold" fill="#0C2864">协调成本的压缩</text>
     <text x="494" y="460" font-size="11" fill="#64748B">一个人做到了原本一个团队的事</text>
     <text x="494" y="486" font-size="11" fill="#64748B">压掉的不是打字时间，是协调时间：</text>
-    <text x="494" y="510" font-size="11" fill="#64748B">评审 · 对齐 · 信息失真 · 返工</text>
-    <text x="494" y="540" font-size="11" fill="#64748B">一个人干的时候，这几项几乎不存在</text>
+    <text x="494" y="510" font-size="11" fill="#64748B">减少跨角色交接与部分等待；</text>
+    <text x="494" y="540" font-size="11" fill="#64748B">评审、误解与返工仍然存在</text>
     <text x="494" y="600" font-size="11" font-weight="bold" fill="#2064AE">质变的开始</text>
 
     <rect x="860" y="280" width="340" height="340" rx="10" fill="#E8F1FD" stroke="#7FA8D9" />
@@ -30,11 +30,10 @@
     <text x="884" y="322" font-size="11" fill="#94A3B8">第三层</text>
     <text x="884" y="352" font-size="17" font-weight="bold" fill="#1B4593">可能性解放</text>
     <text x="884" y="380" font-size="11" fill="#64748B">"改"的成本降到一个人能承受</text>
-    <text x="884" y="406" font-size="11" fill="#64748B">于是"改不改"不再是经济决策，</text>
-    <text x="884" y="430" font-size="11" fill="#64748B">而是一个审美判断</text>
+    <text x="884" y="406" font-size="11" fill="#64748B">修改成本下降，让更多改善值得尝试；</text>
+    <text x="884" y="430" font-size="11" fill="#64748B">仍需评估收益、回归风险与验证成本</text>
     <text x="884" y="462" font-size="11" fill="#64748B">多次重构成为合理的开发策略：</text>
-    <text x="884" y="486" font-size="11" fill="#64748B">70 分 → 85 分 → 90 分，每一步</text>
-    <text x="884" y="510" font-size="11" fill="#64748B">成本都很低</text>
+    <text x="884" y="486" font-size="11" fill="#64748B">发现问题 → 小步改善 → 验证与回退</text>
     <text x="884" y="600" font-size="11" font-weight="bold" fill="#1B4593">质变</text>
 
     <text x="250" y="656" font-size="11" fill="#64748B" text-anchor="middle">同样的事更快</text>

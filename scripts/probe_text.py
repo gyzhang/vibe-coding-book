@@ -89,28 +89,33 @@ def discover(root):
     看上去像"改稿没落地"，其实是**探针读错了文件**。
     报"未落地"之前，先证明不是自己取错了对象。
     """
-    htmls = sorted(glob.glob(os.path.join(root, "*.html")))
+    # 产物统一在 dist/（2026-09-25 目录重构）。多版本共存时取「最近构建」的
+    # 那一版 —— 探针的用途是验证你刚跑完的这次构建，mtime 是它的自然判据。
+    htmls = sorted(
+        glob.glob(os.path.join(root, "dist", "*.html")),
+        key=os.path.getmtime,
+    )
     if htmls:
-        stem = os.path.splitext(os.path.basename(htmls[0]))[0]
-        md = os.path.join(root, stem + ".md")
-        pdf = os.path.join(root, stem + ".pdf")
+        latest = htmls[-1]
+        stem = os.path.splitext(os.path.basename(latest))[0]
+        md = os.path.join(root, "dist", stem + ".md")
+        pdf = os.path.join(root, "dist", stem + ".pdf")
         return (
             md if os.path.exists(md) else None,
-            htmls[0],
+            latest,
             pdf if os.path.exists(pdf) else None,
         )
 
     # 退化路径：没有 HTML 时按排除法找合稿 md（并明确告知，避免静默取错）
-    known = ("00-", "99-", "README.md", "overview.md")
-    md = next(
-        (p for p in sorted(glob.glob(os.path.join(root, "*.md")))
-         if not os.path.basename(p).startswith(known)),
-        None,
-    )
-    print("⚠️  根目录没有 HTML，合稿 md 退回『排除法』识别 → %s（请核对是不是它）"
+    # 退化路径：dist 里没有 HTML 时直接取 dist 里的 md（dist 只放产物，无需排除）
+    mds = sorted(glob.glob(os.path.join(root, "dist", "*.md")),
+                 key=os.path.getmtime)
+    md = mds[-1] if mds else None
+    print("⚠️  dist/ 里没有 HTML，合稿 md 取最近构建的 → %s（请核对是不是它）"
           % (os.path.basename(md) if md else "未找到"))
-    pdfs = sorted(glob.glob(os.path.join(root, "*.pdf")))
-    return md, None, (pdfs[0] if pdfs else None)
+    pdfs = sorted(glob.glob(os.path.join(root, "dist", "*.pdf")),
+                  key=os.path.getmtime)
+    return md, None, (pdfs[-1] if pdfs else None)
 
 
 def main():

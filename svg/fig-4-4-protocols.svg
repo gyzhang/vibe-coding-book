@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 7-1 协议栈与三层治理 -->
+  <!-- 图 4-4 协议栈与三层治理 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">协议栈与三层治理：智能体如何接进企业</text>
@@ -18,7 +18,7 @@
     <path d="M89 262.58A8 8 0 0 0 84 270V336A8 8 0 0 0 89 343.42Z" fill="#3D86D4"/>
     <text x="108" y="288" font-size="12" font-weight="bold" fill="#2064AE">A2A · 横向 · 智能体 ↔ 智能体</text>
     <text x="108" y="312" font-size="10.5" fill="#475569">v1.0 稳定版：gRPC 传输 · 签名身份 · 多租户</text>
-    <text x="108" y="332" font-size="10.5" fill="#64748B">250 多个成员机构在同一屋檐下制定互操作标准</text>
+    <text x="108" y="332" font-size="10.5" fill="#64748B">多家成员机构共同制定互操作标准</text>
     <rect x="84" y="354" width="540" height="82" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M89 354.58A8 8 0 0 0 84 362V428A8 8 0 0 0 89 435.42Z" fill="#08A6F6"/>
     <text x="108" y="380" font-size="12" font-weight="bold" fill="#2064AE">AP2 · 资金 · 智能体 ↔ 支付</text>
@@ -30,8 +30,8 @@
     <text x="108" y="496" font-size="10.5" fill="#475569">面向实时交互反馈，以及让智能体动态生成用户界面</text>
     <text x="108" y="516" font-size="10.5" fill="#64748B">与 MCP、A2A 互补，共同构成智能体互联网的协议栈</text>
     <rect x="84" y="538" width="540" height="62" rx="8" fill="#FDF3E3" stroke="#B9770E" stroke-width="1" />
-    <text x="108" y="564" font-size="12" font-weight="bold" fill="#B9770E">中国标准化进程同步推进</text>
-    <text x="108" y="586" font-size="10.5" fill="#475569">2026 年 6 月发布智能体互联系列国家标准；两万余家组织开始试点</text>
+    <text x="108" y="564" font-size="12" font-weight="bold" fill="#B9770E">治理正在向中立基金会迁移</text>
+    <text x="108" y="586" font-size="10.5" fill="#475569">没有单一厂商能单方面决定协议走向——企业客户不接受技术栈被竞争对手控制</text>
 
     <rect x="668" y="100" width="548" height="520" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="688" y="134" font-size="14" font-weight="bold" fill="#0C2864">治理：协议之上的三张桌子</text>
@@ -39,9 +39,9 @@
     <rect x="688" y="170" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <path d="M693 170.58A8 8 0 0 0 688 178V288A8 8 0 0 0 693 295.42Z" fill="#2064AE"/>
     <text x="712" y="198" font-size="12" font-weight="bold" fill="#2064AE">基金会层 · 管"怎么连"</text>
-    <text x="712" y="224" font-size="10.5" fill="#475569">成员数 146 → 290+（2026-02 → 2026-08）</text>
+    <text x="712" y="224" font-size="10.5" fill="#475569">成员机构持续增长，覆盖多家厂商与用户组织</text>
     <text x="712" y="246" font-size="10.5" fill="#475569">托管 MCP、智能体说明书标准等基础项目</text>
-    <text x="712" y="272" font-size="10.5" fill="#64748B">八个工作组，含智能体商务与安全隐私</text>
+    <text x="712" y="272" font-size="10.5" fill="#64748B">下设多个工作组，含智能体商务与安全隐私</text>
     <rect x="688" y="310" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M693 310.58A8 8 0 0 0 688 318V428A8 8 0 0 0 693 435.42Z" fill="#3D86D4"/>
     <text x="712" y="338" font-size="12" font-weight="bold" fill="#2064AE">标准机构层 · 管"你是谁、能做什么"</text>
@@ -51,7 +51,7 @@
     <rect x="688" y="450" width="508" height="126" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <path d="M693 450.58A8 8 0 0 0 688 458V568A8 8 0 0 0 693 575.42Z" fill="#08A6F6"/>
     <text x="712" y="478" font-size="12" font-weight="bold" fill="#2064AE">安全社区层 · 管"执行那一刻拦不拦得住"</text>
-    <text x="712" y="504" font-size="10.5" fill="#475569">2026 年 9 月在开放 Web 安全项目下亮相</text>
+    <text x="712" y="504" font-size="10.5" fill="#475569">已在开放 Web 安全项目下设立专项</text>
     <text x="712" y="526" font-size="10.5" fill="#475569">聚焦运行时强制层：执行点上的厂商无关中间件钩子</text>
     <text x="712" y="552" font-size="10.5" fill="#64748B">实现执行环境内的细粒度控制</text>
   </g>

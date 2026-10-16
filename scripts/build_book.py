@@ -6,7 +6,8 @@
     python3 scripts/build_book.py
 
 输入：parts/*.md —— 唯一手写源
-输出：<书名>.md —— 合稿产物，禁止手改（下次合稿会覆盖）
+输出：dist/<书名>.md —— 合稿产物，禁止手改（下次合稿会覆盖）；
+      并把 images/ 拷进 dist/images/，使 dist 自包含（可整体拷走部署/阅读）
 
 设计要点：
   · 顺序写死在 PLAN 里，不靠记忆拼章节。
@@ -17,12 +18,13 @@
 """
 import os
 import re
+import shutil
 import sys
 
 # scripts/ 的上一级 = 书目录（与调用时的 cwd 无关）
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-TITLE = "Vibe Coding 时代的我们（2026·V3.2）"
+TITLE = "Vibe Coding 时代的我们（2026·V3.3）"
 
 # 顺序 + 篇分隔（None 表示该分片前不加分隔）
 PLAN = [
@@ -65,8 +67,17 @@ def main():
             chunks.append(body + "\n")
 
     md = "\n".join(chunks)
-    out = os.path.join(ROOT, TITLE + ".md")
+    dist = os.path.join(ROOT, "dist")
+    os.makedirs(dist, exist_ok=True)
+    out = os.path.join(dist, TITLE + ".md")
     open(out, "w", encoding="utf-8").write(md)
+    # dist 自包含：md 里的相对路径 images/… 指向 dist/images/，拷一份随 dist 走
+    shutil.copytree(
+        os.path.join(ROOT, "images"),
+        os.path.join(dist, "images"),
+        dirs_exist_ok=True,
+        ignore=shutil.ignore_patterns(".DS_Store"),
+    )
 
     # 双路复算：合稿结果必须等于各分片顺序拼接
     assert md == "\n".join(chunks), "合稿与分片不一致"

@@ -26,7 +26,7 @@
     <text x="394" y="244" font-size="10.5" fill="#475569">变更四纪律：单一意图 · 可控</text>
     <text x="394" y="264" font-size="10.5" fill="#475569">大小 · 自包含 · 说清为什么</text>
     <text x="394" y="304" font-size="12" font-weight="bold" fill="#0C2864">判据：能一次审查完并负责</text>
-    <text x="394" y="330" font-size="10.5" fill="#64748B">超过四五百行的审查质量断崖下跌</text>
+    <text x="394" y="330" font-size="10.5" fill="#64748B">超过四五百行，审查质量会明显下降</text>
 
     <rect x="664" y="112" width="250" height="248" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
     <path d="M664.83 118A10 10 0 0 1 674 112H904A10 10 0 0 1 913.17 118Z" fill="#3D86D4"/>
@@ -36,8 +36,8 @@
     <text x="692" y="220" font-size="10.5" fill="#475569">机械验证 → 测试 → 评审 → 验收</text>
     <text x="692" y="244" font-size="10.5" fill="#475569">人的评审聚焦机器审不出的东西</text>
     <text x="692" y="268" font-size="10.5" fill="#475569">对抗式验证：结构胜过规模</text>
-    <text x="692" y="304" font-size="12" font-weight="bold" fill="#0C2864">评审链从不分歧，就是警报</text>
-    <text x="692" y="330" font-size="10.5" fill="#64748B">生成者永不认证自己的作品</text>
+    <text x="692" y="304" font-size="12" font-weight="bold" fill="#0C2864">评审长期零分歧？拿违规样例查一次</text>
+    <text x="692" y="330" font-size="10.5" fill="#64748B">生成者不能自行认证自己的作品</text>
 
     <rect x="962" y="112" width="250" height="248" rx="10" fill="#EEF4FB" stroke="#B9CCE4" stroke-width="1.5" />
     <path d="M962.83 118A10 10 0 0 1 972 112H1202A10 10 0 0 1 1211.17 118Z" fill="#08A6F6"/>
@@ -76,11 +76,11 @@
     <text x="934" y="492" font-size="10.5" fill="#475569">人类判断 · 这是不是用户想要的</text>
 
     <rect x="68" y="530" width="1144" height="100" rx="8" fill="#0C2864" />
-    <text x="640" y="562" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">读代码比写代码贵：人审一行变更 $0.243，模型产出一行被验收变更 $0.114</text>
-    <text x="640" y="590" font-size="12" fill="#B9CCE4" text-anchor="middle">每产出一行被验收的代码，要消耗约 128,000 个 token</text>
-    <text x="640" y="614" font-size="12" fill="#B9CCE4" text-anchor="middle">一道一小时的人工评审，可把 5% 的缺陷率压到 1%——最值得先做的一步</text>
+    <text x="640" y="562" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">读代码比写代码更贵——生成以秒计，评审以人时计</text>
+    <text x="640" y="590" font-size="12" fill="#B9CCE4" text-anchor="middle">积压的出路不是砍掉某一层，而是把每一层做便宜、做前置</text>
+    <text x="640" y="614" font-size="12" fill="#B9CCE4" text-anchor="middle">越靠前的手段越便宜，先补齐；人工验收留给机器审不出的部分</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
-    <text x="64" y="672" font-size="11" fill="#94A3B8">单价为公开数据推算值（审查速率 400 行/小时，出自 SmartBear 的 Cisco 研究；开发者完全时薪约 $97.15），非实测；token 口径来自一次完整公开基准运行的重算</text>
+    <text x="64" y="672" font-size="11" fill="#94A3B8">分层与量级为本书与社区的工程归纳；审查量与速率的口径（单次 200–400 行、速率低于 500 行/小时）见第 5 章，两者不是同一件事</text>
   </g>
 </svg>

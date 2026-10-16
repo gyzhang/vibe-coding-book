@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 12-1 责任的分界 -->
+  <!-- 图 5-5 责任的分界 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">责任的分界：什么可以委托，什么不能</text>
@@ -23,7 +23,7 @@
     <text x="468" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">提交合并请求</text>
     <rect x="84" y="368" width="508" height="52" rx="6" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1" />
     <text x="338" y="400" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">在受约束的沙箱里执行被批准的操作</text>
-    <text x="84" y="452" font-size="10.5" fill="#64748B">共同点：动作可以被机器判定对错，后果可以被回滚或隔离</text>
+    <text x="84" y="452" font-size="10.5" fill="#64748B">共同点：动作有可复核标准，自动检查与人工判断分工明确，后果可回滚或隔离</text>
 
     <line x1="632" y1="110" x2="632" y2="466" stroke="#DF203C" stroke-width="2" stroke-dasharray="6 5" />
     <rect x="574" y="418" width="116" height="26" rx="4" fill="#DF203C" />
@@ -46,7 +46,8 @@
     <text x="1070" y="336" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">说出"可以上线"</text>
     <rect x="676" y="368" width="520" height="52" rx="6" fill="#0C2864" />
     <text x="936" y="400" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">为一次判断签名：签名的是人，不是模型</text>
-    <text x="676" y="452" font-size="10.5" fill="#DF203C">责任不能被外包：模型没有财产、职位与声誉可损失</text>
+    <text x="676" y="444" font-size="10.5" fill="#DF203C">责任不能被外包：模型没有财产、职位与声誉可损失</text>
+    <text x="676" y="464" font-size="10.5" fill="#64748B">专业与审批责任不等于个人包揽全部法律责任；法律责任依法、依事实和组织职责确定</text>
 
     <rect x="64" y="492" width="368" height="128" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="84" y="522" font-size="12" font-weight="bold" fill="#2064AE">一 · 对结果负责</text>
@@ -59,7 +60,7 @@
     <text x="476" y="548" font-size="10.5" fill="#475569">完成 = 测试通过 + 真实链路验证 + 过程留痕</text>
     <text x="476" y="572" font-size="10.5" fill="#475569">这不是某个平台的要求，是这个时代工程师</text>
     <text x="476" y="592" font-size="10.5" fill="#475569">的执业标准——像医生写病历、会计做凭证</text>
-    <text x="476" y="612" font-size="10.5" fill="#64748B">留痕保护的不只是组织，是你自己</text>
+    <text x="476" y="612" font-size="10.5" fill="#64748B">留痕是说明判断依据的材料，但不自动等于免责</text>
     <rect x="848" y="492" width="368" height="128" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="868" y="522" font-size="12" font-weight="bold" fill="#2064AE">三 · 对同行负责</text>
     <text x="868" y="548" font-size="10.5" fill="#475569">把你的经验封装成技能，把踩坑写成规约，</text>

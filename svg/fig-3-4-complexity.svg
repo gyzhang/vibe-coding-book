@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 5-1 复杂度利息：6.23 亿次代码变更的信号 -->
+  <!-- 图 3-4 复杂度利息：6.23 亿次代码变更的信号 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">复杂度利息：6.23 亿次代码变更给出的证据</text>
-    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">AI 消灭偶然复杂度的速度，慢于它制造本质复杂度堆积的速度</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">重复与耦合增加了可避免的实现复杂度；理解没有同步增长，就形成认知债</text>
   </g>
   <g id="content" data-pptx-bounds="40 84 1200 560">
     <rect x="64" y="104" width="274" height="64" rx="8" fill="#B9CCE4" />
     <text x="201" y="142" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">生成提速</text>
     <polygon points="344,124 360,136 344,148" fill="#94A3B8" />
     <rect x="366" y="104" width="274" height="64" rx="8" fill="#7FA8D9" />
-    <text x="503" y="142" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">堆积提速</text>
+    <text x="503" y="142" font-size="14" font-weight="bold" fill="#0C2864" text-anchor="middle">实现复杂度堆积</text>
     <polygon points="646,124 662,136 646,148" fill="#94A3B8" />
     <rect x="668" y="104" width="274" height="64" rx="8" fill="#3D86D4" />
     <text x="805" y="142" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">复杂度利息复利累积</text>
@@ -45,7 +45,7 @@
     <rect x="700" y="264" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="720" y="294" font-size="12" font-weight="bold" fill="#2064AE">新增代码中"复制已有代码"的比例</text>
     <text x="720" y="320" font-size="10.5" fill="#475569">用重复代码检测工具按月追踪，而不是按季</text>
-    <text x="720" y="346" font-size="10.5" fill="#DF203C">这是最先恶化的那一个信号</text>
+    <text x="720" y="346" font-size="10.5" fill="#DF203C">这是恶化较早、监测成本最低的信号之一</text>
     <rect x="700" y="384" width="496" height="104" rx="8" fill="#FFFFFF" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="720" y="414" font-size="12" font-weight="bold" fill="#2064AE">重构 / 搬移类变更的占比</text>
     <text x="720" y="440" font-size="10.5" fill="#475569">把代码搬到更合理的位置——控制复杂度最有价值的变更</text>
@@ -56,7 +56,7 @@
     <text x="720" y="586" font-size="10.5" fill="#DF203C">新代码在绕过已有安全网</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
-    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：代码分析机构对 2023–2026 年间 6.23 亿次变更的可维护性追踪 · 相关性证据，非因果证明</text>
+    <text x="64" y="672" font-size="11" fill="#94A3B8">数据来源：GitClear 对 2023–2026 年 6.23 亿次变更的追踪（厂商观察报告，指标为厂商自定义）· 相关性，不单独证明 AI 导致变化</text>
     <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">同期亦受行业整体变化影响</text>
   </g>
 </svg>

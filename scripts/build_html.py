@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""把合并后的 markdown 书稿构建为单文件、离线可读、SVG 内联的 HTML 阅读版。
-
-用法:  python3 scripts/build_html.py   （在任意目录下都可运行）
-输入:  Vibe Coding 时代的我们（2026·V3.2）.md  +  svg/*.svg
-输出:  Vibe Coding 时代的我们（2026·V3.2）.html   （自包含，无外部依赖）
-"""
+"""构建 SVG 内联阅读版；默认字体外链，--embed-fonts 生成自包含离线版。"""
 import base64
 import glob
 import io
@@ -27,13 +22,14 @@ FONT_URL_BASE = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--fo
 
 # scripts/ 的上一级 = 书目录（与调用时的 cwd 无关）
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_NAME = "Vibe Coding 时代的我们（2026·V3.2）"
+BASE_NAME = "Vibe Coding 时代的我们（2026·V3.3）"
 MD_NAME = BASE_NAME + ".md"
 OUT_NAME = BASE_NAME + ".html"                    # 在线阅读版（字体外链）
 OUT_NAME_OFFLINE = BASE_NAME + "（离线版）.html"   # 下载版（字体内嵌）
-MD = os.path.join(ROOT, MD_NAME)
+DIST = os.path.join(ROOT, "dist")   # 产物目录（2026-09-25 目录重构，仿前端 dist 模式）
+MD = os.path.join(DIST, MD_NAME)
 SVGDIR = os.path.join(ROOT, "svg")
-OUT = os.path.join(ROOT, OUT_NAME_OFFLINE if EMBED_FONTS else OUT_NAME)
+OUT = os.path.join(DIST, OUT_NAME_OFFLINE if EMBED_FONTS else OUT_NAME)
 
 # ---------------------------------------------------------------- 0.1 字体策略
 # **只用免费商用字体**。中文 = 思源黑体（本机 1.x 版为 Apache-2.0，2.0 起为 SIL OFL 1.1）
@@ -54,8 +50,8 @@ SUBSET_SOURCES = [(WEBFONT_FAMILY, "book-sans-regular", "SourceHanSansCN-Regular
 
 BOOK_TITLE = "Vibe Coding 时代的我们"
 BOOK_SUB = "AI 编码的能与不能"
-DRAFT_LINE = "V3.2 秋分 · 2026 年 9 月 23 日"   # 兜底值；正常由封面块里的版本行覆盖
-DRAFT_CHIP = "V3.2 秋分"                          # 顶栏徽章的短版（= 版本号部分）
+DRAFT_LINE = "V3.3 修订稿 · 2026 年 9 月 24 日"   # 兜底值；正常由封面块里的版本行覆盖
+DRAFT_CHIP = "V3.3 修订稿"                          # 顶栏徽章的短版（= 版本号部分）
 AUTHOR_LINE = "Kevin + AI"
 
 # 版本行的识别判据 —— **必须用正向特征（版本号模式），不能靠字样**（2026-09-22 实测）：
@@ -858,7 +854,7 @@ __CSS__</style>
       <div class="stats"><span>中文 __CJ__ 字</span><span>配图 __NFIG__ 张</span><span>代码 __NCODE__ 段</span><span>表格 __NTABLE__ 个</span></div>
     </div>
   </div>
-  <div class="draftbar"><strong>__DRAFT__</strong> —— 全书重写 · 五篇十五章 · __NFIG__ 张配图。文中引用的原始来源<strong>多数可点开核实</strong>；标注为 C 级的数据（厂商自述或第三方分析）<strong>本书未独立核实</strong>。数据核查截止 2026 年 9 月 19 日，模型价格与榜单分数会快速过期，<strong>请以方法论为准</strong>。逐条口径、时点、局限与网址见<strong>附录 A</strong>。</div>
+  <div class="draftbar"><strong>__DRAFT__</strong> —— 五篇十五章 · __NFIG__ 张配图。<strong>当前为修订稿：正文与配图已同步更新，尚未正式发布。</strong>附录 A 的 A / B / C 表示来源类别，不是证据强弱排名；核对来源不等于独立复现实验，作者案例的复核材料尚未全部公开。案例统计截止 2026 年 9 月 19 日；研究设计、核验边界、时点与出处见<strong>附录 A</strong>。</div>
   <p class="hint">阅读提示：点击任意配图可放大（Esc 关闭）；右上角可调字号、<strong>收起目录</strong>、加宽版心、切换夜读，或进入<strong>沉浸阅读</strong>（再按一次按钮或 Esc 退出）；目录中篇 / 章 / 节标题右侧的 <strong>˅ 箭头</strong>可折叠下级内容，也可用筛选框下方的「<strong>全部展开 / 全部收起</strong>」一键操作；拖动目录与正文之间的细线可调宽度（双击恢复默认）；用 Ctrl/⌘ + P 可直接打印为 PDF（打印时自动隐藏侧栏、按章分页）。</p>
 __BODY__
 </main>
@@ -889,7 +885,7 @@ def _subset_woff2(font_path, chars):
     opts = Options()
     opts.layout_features = ["*"]
     opts.drop_tables = ["DSIG"]
-    font = TTFont(font_path, fontNumber=0)
+    font = TTFont(font_path, fontNumber=0, recalcTimestamp=False)  # 锁死 head.modified —— 默认每次保存刷成当前时间，离线版会字节级不可复现（2026-09-25 指纹比对发现）
     sub = Subsetter(options=opts)
     sub.populate(text="".join(sorted(chars)))
     sub.subset(font)
@@ -960,6 +956,7 @@ if EMBED_FONTS:
     print("  字体子集：正文 %d 字符 / 代码 %d 字符" % (len(_chars), len(_mono_chars)))
 out = out.replace("__FONTFACE__", build_fontface(_chars, _mono_chars))
 
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
 open(OUT, "w", encoding="utf-8").write(out)
 print("OK ->", OUT)
 print("  %s" % ("下载版 · 字体已内嵌，单文件离线可读" if EMBED_FONTS

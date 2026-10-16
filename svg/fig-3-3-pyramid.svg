@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Book Sans, Source Han Sans CN, 思源黑体 CN, sans-serif" font-size="12" data-pptx-page-role="content">
-  <!-- 图 4-1 测试金字塔与 智能体 反馈回路 -->
+  <!-- 图 3-3 测试金字塔与智能体的反馈回路 -->
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">测试金字塔与智能体的反馈回路</text>
@@ -17,9 +17,9 @@
     <polygon points="186,410 412,410 446,504 152,504" fill="#2064AE" stroke="#FFFFFF" stroke-width="2" />
     <text x="299" y="466" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">单元测试</text>
     <line x1="130" y1="504" x2="468" y2="504" stroke="#94A3B8" stroke-width="1" />
-    <text x="299" y="530" font-size="10.5" fill="#475569" text-anchor="middle">数量最多 · 快 · 定位准 · 智能体可大批量生产 · 发布前禁用模拟对象</text>
+    <text x="299" y="530" font-size="10.5" fill="#475569" text-anchor="middle">数量最多 · 快 · 定位准 · 智能体可大批量生产 · 模拟测试覆盖失败路径</text>
     <text x="299" y="560" font-size="12" font-weight="bold" fill="#0C2864" text-anchor="middle">只用模拟对象、只跑单测，不算完成</text>
-    <text x="299" y="586" font-size="10.5" fill="#64748B" text-anchor="middle">真实链路的问题，模拟对象永远测不出来</text>
+    <text x="299" y="586" font-size="10.5" fill="#64748B" text-anchor="middle">模拟可注入超时、拒绝、错误响应；不能证明真实依赖符合假设</text>
     <text x="299" y="608" font-size="10.5" fill="#475569" text-anchor="middle">新趋势：端到端环节由专职测试智能体执行</text>
 
     <rect x="550" y="100" width="666" height="326" rx="10" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1.5" />
@@ -63,7 +63,7 @@
     <text x="1098" y="580" font-size="10.5" fill="#475569" text-anchor="middle">机器审不出的问题</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 650 1280 40">
-    <text x="64" y="672" font-size="11" fill="#94A3B8">相关数据：AI 生成代码缺陷密度约为人工的 1.7–2.7 倍；真实任务中"能跑"占 61%，"安全"仅 10.5%</text>
+    <text x="64" y="672" font-size="11" fill="#94A3B8">模拟与真实验证互补：模拟注入失败路径；关键链路用经授权的隔离环境与代表性数据验证，不直接拿生产验证</text>
     <text x="1216" y="672" font-size="11" fill="#94A3B8" text-anchor="end">完成 = 测试通过 + 真实链路验证 + 过程留痕</text>
   </g>
 </svg>

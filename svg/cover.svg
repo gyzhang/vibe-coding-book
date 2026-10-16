@@ -55,13 +55,13 @@
   <!-- 版本说明 -->
   <rect x="100" y="1206" width="1000" height="92" rx="8" fill="#F5F8FC" stroke="#D8E4F0" stroke-width="1" />
   <path d="M106 1206.25A8 8 0 0 0 100 1214V1290A8 8 0 0 0 106 1297.75Z" fill="#2064AE"/>
-  <text x="132" y="1248" font-size="21" font-weight="bold" fill="#0C2864">V3.2 秋分</text>
+  <text x="132" y="1248" font-size="21" font-weight="bold" fill="#0C2864">V3.3 修订稿</text>
   <text x="132" y="1278" font-size="19" fill="#64748B">数据以 2026 年 9 月 19 日公开来源为准；凡未独立核实的，正文与附录都标了出来</text>
 
   <!-- 署名 -->
   <line x1="100" y1="1360" x2="1100" y2="1360" stroke="#D8E4F0" stroke-width="2" />
   <text x="100" y="1444" font-size="46" font-weight="bold" fill="#2064AE">Kevin + AI</text>
-  <text x="100" y="1496" font-size="21" fill="#64748B">2026 年 9 月 23 日 · 全书重写</text>
+  <text x="100" y="1496" font-size="21" fill="#64748B">2026 年 9 月 24 日 · 修订</text>
   <text x="100" y="1540" font-size="18" fill="#94A3B8">附：术语与约定 · 数据与来源清单 · 可操作清单 · 术语表</text>
 
   <rect x="100" y="1620" width="1000" height="10" fill="#2064AE" />

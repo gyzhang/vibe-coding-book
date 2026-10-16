@@ -3,37 +3,37 @@
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
   <g id="title" data-pptx-bounds="0 14 1280 58">
     <text x="640" y="42" font-size="22" font-weight="bold" fill="#0C2864" text-anchor="middle">155 天：四个仓库的时间线与规模</text>
-    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">2026-04-18 至 2026-09-19 · 全部实现代码由 AI 生成 · 作者自测口径，命令可复现</text>
+    <text x="640" y="66" font-size="11" fill="#64748B" text-anchor="middle">2026-04-18至2026-09-19 · 作者实践记录</text>
   </g>
   <g id="content" data-pptx-bounds="40 84 1200 530">
 
     <line x1="180" y1="368" x2="1180" y2="368" stroke="#D8E4F0" stroke-width="1.5" />
     <text x="180" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">04-18</text>
-    <text x="373" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">05-18</text>
-    <text x="573" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">06-18</text>
-    <text x="767" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">07-18</text>
-    <text x="967" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">08-18</text>
-    <text x="1167" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">09-18</text>
+    <text x="374.8" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">05-18</text>
+    <text x="576.1" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">06-18</text>
+    <text x="770.9" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">07-18</text>
+    <text x="972.2" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">08-18</text>
+    <text x="1173.5" y="388" font-size="10.5" fill="#94A3B8" text-anchor="middle">09-18</text>
 
     <text x="170" y="130" font-size="12" fill="#475569" text-anchor="end">桌面端</text>
-    <rect x="180" y="114" width="884" height="22" rx="4" fill="#1B4593" />
-    <text x="1074" y="130" font-size="10.5" fill="#64748B">731 次提交 · 04-18 → 09-02</text>
+    <rect x="180" y="114" width="889.6" height="22" rx="4" fill="#1B4593" />
+    <text x="1079.6" y="130" font-size="10.5" fill="#64748B">731 次提交 · 04-18 → 09-02</text>
 
     <text x="170" y="180" font-size="12" fill="#475569" text-anchor="end">云端</text>
-    <rect x="180" y="164" width="800" height="22" rx="4" fill="#2064AE" />
-    <text x="990" y="180" font-size="10.5" fill="#64748B">3,118 次提交 · 04-18 → 08-20</text>
+    <rect x="180" y="164" width="805.2" height="22" rx="4" fill="#2064AE" />
+    <text x="995.2" y="180" font-size="10.5" fill="#64748B">3,118 次提交 · 04-18 → 08-20</text>
 
     <text x="170" y="230" font-size="12" fill="#475569" text-anchor="end">官网</text>
-    <rect x="341" y="214" width="136" height="22" rx="4" fill="#7FA8D9" />
-    <text x="487" y="230" font-size="10.5" fill="#64748B">12 次提交 · 05-13 → 06-03</text>
+    <rect x="342.3" y="214" width="136.4" height="22" rx="4" fill="#7FA8D9" />
+    <text x="488.7" y="230" font-size="10.5" fill="#64748B">12 次提交 · 05-13 → 06-03</text>
 
     <text x="170" y="280" font-size="12" fill="#475569" text-anchor="end">BetterWork</text>
-    <rect x="1064" y="264" width="116" height="22" rx="4" fill="#08A6F6" />
-    <text x="1054" y="280" font-size="10.5" fill="#64748B" text-anchor="end">333 次提交 · 09-02 → 09-19</text>
+    <rect x="1069.6" y="264" width="110.4" height="22" rx="4" fill="#08A6F6" />
+    <text x="1059.6" y="280" font-size="10.5" fill="#64748B" text-anchor="end">333 次提交 · 09-02 → 09-19</text>
 
     <text x="180" y="336" font-size="10.5" fill="#94A3B8">第 100 天 · 2026-07-26 · 数据冻结（1,584 次提交 / 18.98 万行业务代码 / 6.2 万行测试）</text>
-    <line x1="730" y1="104" x2="730" y2="368" stroke="#DF203C" stroke-width="1" stroke-dasharray="4 4" />
-    <text x="738" y="106" font-size="10.5" fill="#DF203C">2026-07-26</text>
+    <line x1="822.9" y1="104" x2="822.9" y2="368" stroke="#DF203C" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="830.9" y="106" font-size="10.5" fill="#DF203C">2026-07-26</text>
 
     <rect x="64" y="424" width="268" height="142" rx="8" fill="#F5F8FC" stroke="#D8E4F0" />
     <text x="88" y="482" font-size="26" font-weight="bold" fill="#1B4593">4,194</text>
@@ -56,7 +56,7 @@
     <text x="976" y="532" font-size="10.5" fill="#64748B">另有 12 天无提交记录</text>
   </g>
   <g id="footnote" data-pptx-bounds="0 600 1280 40">
-    <text x="64" y="592" font-size="11" fill="#94A3B8">四个数相加 = 4,194（桌面端 731 / 云端 3,118 / 官网 12 / BetterWork 333），截至各仓库最后一次提交</text>
-    <text x="64" y="612" font-size="11" fill="#94A3B8">口径：作者自测，脚本统计，可复现；四个仓库任务类型、语言与成熟度不同，行数描述规模，不描述价值</text>
+    <text x="64" y="592" font-size="11" fill="#94A3B8">统计口径与复核材料缺口见附录 A.1</text>
+    <text x="64" y="612" font-size="11" fill="#94A3B8">行数描述规模，不描述价值</text>
   </g>
 </svg>
